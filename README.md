@@ -43,7 +43,7 @@ Now everything should work and you can start the tool with the following command
 
 The output should look like the following. If it does, you are ready to setup your board which is described in the next section. If the program should run on startup read further on.
 
-<img src="images/StartAutodarts.jpg" width="40%" height="40%">
+<img src="images/StartAutodarts.JPG" width="40%" height="40%">
 
 ### Setup autostart for Autodarts
 

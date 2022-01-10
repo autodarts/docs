@@ -43,7 +43,9 @@ Now everything should work and you can start the tool with the following command
 
 The output should look like the following. If it does, you are ready to setup your board which is described in the next section. If the program should run on startup read further on.
 
-<img src="images/StartAutodarts.JPG" width="40%" height="40%">
+<img src="images/StartAutodarts.JPG" width="50%" height="50%">
+
+Now you are ready to setup your board. With the autodarts command you can start the Board Manager in the future if you don't put it to startup.
 
 ### Setup autostart for Autodarts
 

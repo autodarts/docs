@@ -21,11 +21,15 @@ Which camera you are using does not matter too much. But one of the things where
 
 ## Linux system setup
 
-Depends on which operating system or device you want to use the installation will differ. But what you need is to install the latest version of OpenCV on the machine. Here is a little tutorial for a Raspberry Pi ([Rasbperry Pi OpenCV installation guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y))
+First you need to install your operating system on your device. If you are using a normal computer or laptop you can choose for example [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop) or of course the Unix OS you prefer. If you don't know how to install it you can have a look here [Ubuntu Installation](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
 
-Of course you can almost use every linux based system. If you have Ubuntu 20.04 you can have a look at this link ([Ubuntu 20.04 OpenCv installation guide])(https://vitux.com/opencv_ubuntu/)
+If you are using a Raspberry Pi we are recommand to use a Lite version which you can download [here](https://www.raspberrypi.com/software/operating-systems/). And here is a good guide which explains how to install your Pi. [Pi installation](https://siytek.com/how-to-install-raspbian-to-sd-card-using-etcher/)
 
-Because you need to connect three webcams to your machine you should check if every cam is working correctly. For that you can have a look in the [configuration section](#configure-autodarts) As soon as you've done that you are ready to go.
+Depends on which operating system or device you want to use the installation will differ. But what you need is to install the latest version of OpenCV on the machine. Here is a little tutorial for a Raspberry Pi [Rasbperry Pi OpenCV installation guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y)
+
+Of course you can almost use every linux based system. If you have Ubuntu 20.04 you can have a look at this link [Ubuntu 20.04 OpenCv installation guide](https://vitux.com/opencv_ubuntu/)
+
+Because you need to connect three webcams to your machine you should check if every cam is working correctly. For that you can have a look in the [configuration section](#configure-autodarts) As soon as you've done that you are ready to go. 
 
 ### Get Autodarts running
 

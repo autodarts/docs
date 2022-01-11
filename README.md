@@ -178,3 +178,7 @@ Parts of the setup:
 
 <img src="images/Bomber74_PlasmaHolder.png" width="20%" height="20%">
 <img src="images/Bomber74_boardView.png" width="40%" height="40%">
+
+### Cameras which are not working
+
+- https://www.amazon.de/dp/B09GJRKVLK/ref=cm_sw_r_apan_glt_i_dl_APRJ92Y280T4AWR0TSFA?_encoding=UTF8&th=1

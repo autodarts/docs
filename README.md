@@ -29,23 +29,7 @@ Because you need to connect three webcams to your machine you should check if ev
 
 ### Get Autodarts running
 
-To get the Autodarts program running you need to download the latest version auf Autodarts which fits to your device. Please note that the version differs between Jetson Nano, Raspberry Pi or a desktop computer or laptop. For the Pi you'll need the the file with pi (e.g. autodarts-0.15.4-pi-armv7l.zip), for a Jetson Nano (e.g. autodarts-0.15.4-jetson-aarch64.zip) and for the other systems for example autodarts-0.15.4-x86_64.zip. To download the latest versions you need to have a look in the updates channel in Discord. There you can copy the link for the latest version. After that you just need to copy the command below and replace the url. As soon as you done that you can run the command on your linux system.
-
-    wget https://cdn.discordapp.com/attachments/927656849988255824/930165114890510366/autodarts-0.15.4-pi-armv7l.zip
-
-Once you have donwloaded the program you'll need to extract it with the the unzip command. Because we extract the file into the directory /usr/local/bin and adding execution rights you'll need to enter your root password of your linux user. Please make shure that you replace the zip name (autodarts-0.15.4-pi-armv7l.zip) with the downloaded zip.
-
-    sudo unzip autodarts-0.15.4-pi-armv7l.zip -d /usr/local/bin ; chmod +x /usr/local/bin/autodarts
-
-Now everything should work and you can start the tool with the following command.
-
-    autodarts
-
-The output should look like the following. If it does, you are ready to setup your board which is described in the next section. If the program should run on startup read further on.
-
-<img src="images/StartAutodarts.JPG" width="50%" height="50%">
-
-Now you are ready to setup your board. With the autodarts command you can start the Board Manager in the future if you don't put it to startup.
+Reach out in Discord to be put on the waiting list.
 
 ### Setup autostart for Autodarts
 

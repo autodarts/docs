@@ -39,7 +39,7 @@ Reach out in Discord to be put on the waiting list and please only reach out if 
 
 If you are using a device just for the Autodarts recognition, it could propably very usefull to have it started everytime you are starting the device. For that you can add the Autodarts tool the startup routine. For that you need to create a new file with the command:
 
-    sudo nano /lib/systemd/system/autodarts.service
+    sudo nano /etc/systemd/system/autodarts.service
 
 This opens a text editor called nano. You can copy the following text into it but don't forget to change the username to the user you are logged in at the moment. In this example it is pi.
 
@@ -65,7 +65,7 @@ As soon as you pasted the code above into the file, you can close the file with 
 
 The next step is to modify some rights. For that you can copy and paste this:
 
-    sudo chmod 644 /lib/systemd/system/autodarts.service
+    sudo chmod 644 /etc/systemd/system/autodarts.service
 
 Once done you need to reload the startup deamon with:
 

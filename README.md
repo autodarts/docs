@@ -182,3 +182,4 @@ Parts of the setup:
 ### Cameras which are not working
 
 - https://www.amazon.de/dp/B09GJRKVLK/ref=cm_sw_r_apan_glt_i_dl_APRJ92Y280T4AWR0TSFA?_encoding=UTF8&th=1
+- https://www.amazon.de/dp/B089N76BB2/ref=cm_sw_r_cp_api_glt_i_5VQ17G6RTD4KR2GN2HY4?_encoding=UTF8&psc=1

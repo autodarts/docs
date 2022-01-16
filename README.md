@@ -281,7 +281,7 @@ The output should now be displayed in the same way:
     -rw-r--r--  1 root root 161608 Jan 14 10:57 uvcvideo.ko
     -rw-r--r--  1 root root 164145 Jan  6 21:56 uvcvideo.ko.bak
     
-Führe abschließend noch diesen Befehl aus, danach wurden die Änderungen übernommen und bleiben auch nach einem Neustart des Systems erhalten:
+Finally, execute this command, after which the changes have been applied and are retained even after a restart of the system:
 
     sudo insmod /lib/modules/$(uname -r)/kernel/drivers/media/usb/uvc/uvcvideo.ko
 

@@ -213,6 +213,11 @@ Be careful and pay attention to the correct formatting of the input!
 Then save the file with CTRL + O, Enter.
 Close the file with CTRL + X.
 
+**Raspberry Pi users only:**
+You still need to run this command before continuing:
+
+    sudo apt-get install raspberrypi-kernel-headers
+
 Now build the new kernel files:
 
     sudo make -C /lib/modules/$(uname -r)/build M=$(pwd) modules
@@ -268,7 +273,7 @@ If the output looks like this, continue:
     
 Enter the following commands based on your Kernel version:
 
-    sudo cp ~/linux-5.X/drivers/media/usb/uvc//uvcvideo.ko /lib/modules/$(uname -r)/kernel/drivers/media/usb/uvc/uvcvideo.ko
+    sudo cp ~/linux-5.X/drivers/media/usb/uvc/uvcvideo.ko /lib/modules/$(uname -r)/kernel/drivers/media/usb/uvc/uvcvideo.ko
     
 To verify that the file was copied correctly, enter the following command again:
 

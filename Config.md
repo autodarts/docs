@@ -1,6 +1,6 @@
 ## Config
 
-A want to share a couple of words on the config settings under`Motion Detection` and `Dart Detection` so you can better adjust them to your needs.
+I want to share a couple of words on the config settings under`Motion Detection` and `Dart Detection` so you can better adjust them to your needs.
 
 Let us start with the two most important ones first.
 The `Diff Image > Threshold` both under "Motion Detection" and "Dart Detection" is used to calculate the difference between the image before the dart hit and the image right after.
@@ -31,7 +31,7 @@ These values are representing areas in the image but you can think of them as th
 I typically put the `Hand Size: Min` to be a lot higher than the `Dart Size: Max` but there is no real reason for it.
 Once an object has more pixels than this value, it is considered to be a hand.
 
-In the `Dart Detection` there is a sub-section called `ROI Detection`.
+In the `Dart Detection`, there is a sub-section called `ROI Detection`.
 The ROI is the region-of-interest in the full-resolution image.
 I use the motion detection which runs on a much smaller resolution (to be fast) to calculate where the dart would be in the full-resolution image.
 To figure out the ROI, I combine all the so-called blobs (objects in the image made up of pixels) that exceed a certain size (again in pixels).

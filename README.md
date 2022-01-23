@@ -158,9 +158,7 @@ If you want to get an explanation which setting does what you can have a look he
 
 ## Troubleshooting
 
-If you have a problem maybe this troubleshooting guide will help.
-
-
+If you have a problem maybe this troubleshooting guide will help. [Troubleshooting Guide](https://github.com/autodarts/docs/blob/main/Troubleshooting.md)
 
 ## Working setups
 

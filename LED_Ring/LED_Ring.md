@@ -16,17 +16,13 @@ You want to use it in combination with my arms and feet. You then need to print 
 - 3x plasma_lid.stl
 - 3x plasma_foot_lid.stl
 
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/plasma_arm_assembly_1.png)
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/plasma_arm_assembly_2.png)
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/plasma_arm_assembly_exp.png)
+![alt text](https://github.com/kriminolle/docs/blob/e42b9119635a129260e151d60b1203bfb84ab232/LED_Ring/ledRingImages/plasma_arm_assembly_git.png)
 
 The lid is always optional but highly recommended. It does not only serve aesthetic purposes but also is meant as a safeguard for the camera modules!!!
 
 **Option 2**
 
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/plasma_arm_assembly_webcam_1.png)
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/plasma_arm_assembly_webcam_2.png)
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/plasma_arm_assembly_webcam_exp.png)
+![alt text](https://github.com/kriminolle/docs/blob/e42b9119635a129260e151d60b1203bfb84ab232/LED_Ring/ledRingImages/plasma_arm_assembly_webcam_git.png)
 
 For use with a webcam with a standard camera mount thread, you need to replace the arm and lid file with
 - 3x plasma_arm_foot_webcam.stl
@@ -57,9 +53,7 @@ You will need to print the following files for the ring:
 - 3x plasma_arm_foot.stl or plasma_arm_foot_webcam.stl
 - 3x plasma_lid.stl or plasma_lid_webcam.stl
 
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/print_arm_assembly_1.png)
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/print_arm_assembly_2.png)
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/print_arm_assembly_exp.png)
+![alt text](https://github.com/kriminolle/docs/blob/e42b9119635a129260e151d60b1203bfb84ab232/LED_Ring/ledRingImages/print_arm_assembly_git.png)
 
 In addition, you will need a led stripe that is glued to the inside of the ring. You can add an in-line switch if you want to, but it is not necessary. 
 

@@ -77,37 +77,6 @@ ___
 - It will open up and show you this prompt (depending on your username, if you had changed while setup)
 <img src="images/consolep.jpg" width="30%" height="30%">
 
-### Install OpenCV:
-* Thanks to [this Guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y) i just had to copy it. *Shame on me*
-
-- with open console type in, or copy over:
-
-Download the .deb package from releases page of the repository:
-```
-wget https://github.com/prepkg/opencv-raspberrypi/releases/latest/download/opencv.deb
-```
-<img src="images/consoleocv1.jpg" width="30%" height="30%">
-
-Execute the following command to install OpenCV:
-```
-sudo apt install -y ./opencv.deb
-```
-<img src="images/consoleocv2.jpg" width="30%" height="30%">
-
-We can run opencv_version command to check version of OpenCV:
-```
-opencv_version
-```
-<img src="images/consoleocv3.jpg" width="30%" height="30%">
-
-The .deb package is no longer needed, you can remove it:
-```
-rm -rf opencv.deb
-```
-
-- You have successfully installed OpenCV ( Ai - Camera - Future Shit)
-- Next step is to install some USB - Utilities
-
 ### Install v4l-utils (and get your Camera-ID's):
 
 - Open up your console and enter

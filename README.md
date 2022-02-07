@@ -2,7 +2,7 @@ Due to many questions how to setup the cameras and the equipment I decided to wr
 
 ## What is needed?
 
-Of course if you want to start with autodarts.io you'll need a steel dartbaord. For a well working dart recognition you also need a 360 degrees led lightring so that the darts don't cast shadows. The cameras needs to have a good view on the baord. For that you need to find a way how the cameras have a view of the whole board. There are multiple ways to do that, for example attach them to the led ring. Because we want to caputre the darts you need three cameras. You will get the best result with cameras without distortion. And last but not least you need a device where the cams can be connected and controlled. For that you can use a computer with Linux running on it. You also can use a Rasbperry Pi 3B+ (this is the minimum and not a performing solution, I can't recommend using a 3B+) or better or an NVIDA Jetson Nano. Because the system is running on a Linux based operating system some Linux skills are nice to have. But I'm pretty sure people and a search engine can help you out there.
+Of course if you want to start with autodarts.io you'll need a steel dartbaord. For a well working dart recognition you also need a 360 degrees led lightring so that the darts don't cast shadows. The cameras needs to have a good view on the baord. For that you need to find a way how the cameras have a view of the whole board. There are multiple ways to do that, for example attach them to the led ring or if you have access to a 3d printer you also can print the these files [LED ring.](./LED_Ring/LED_Ring.md) Because we want to caputre the darts you need three cameras. You will get the best result with cameras without distortion. And last but not least you need a device where the cams can be connected and controlled. For that you can use a computer with Linux running on it. You also can use a Rasbperry Pi 3B+ (this is the minimum and not a performing solution, I can't recommend using a 3B+) or better or an NVIDA Jetson Nano. Because the system is running on a Linux based operating system some Linux skills are nice to have. But I'm pretty sure people and a search engine can help you out there.
 
 Also you'll need a an Autodarts.io account with a board id and API key. But first setup all the other stuff.
 
@@ -26,10 +26,6 @@ First you need to install your operating system on your device. If you are using
 If you are using a Raspberry Pi we are recommand to use a Lite version which you can download [here](https://www.raspberrypi.com/software/operating-systems/). And here is a good guide which explains how to install your Pi. [Pi installation](https://siytek.com/how-to-install-raspbian-to-sd-card-using-etcher/)
 
 Here is a very good tutorial how to set up you system and install autodarts for a Rasbperry Pi if you want to have a desktop version. Thanks to PixelStarFish for his [Raspberry Pi desktop tutorial](RP4-Raspbian-Desk-Setup.md).
-
-Depends on which operating system or device you want to use the installation will differ. But what you need is to install the latest version of OpenCV on the machine. Here is a little tutorial for a Raspberry Pi [Rasbperry Pi OpenCV installation guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y)
-
-Of course you can almost use every linux based system. If you have Ubuntu 20.04 you can have a look at this link [Ubuntu 20.04 OpenCv installation guide](https://vitux.com/opencv_ubuntu/)
 
 Because you need to connect three webcams to your machine you should check if every cam is working correctly. For that you can have a look in the [configuration section](#configure-autodarts) As soon as you've done that you are ready to go. 
 
@@ -159,35 +155,6 @@ If you want to get an explanation which setting does what you can have a look he
 ## Troubleshooting
 
 If you have a problem maybe this troubleshooting guide will help. [Troubleshooting Guide](https://github.com/autodarts/docs/blob/main/Troubleshooting.md)
-
-## Working setups
-
-### **NullP0ints setup**
-
-Parts of the setup:
-
-- Winmau Blade 5
-- Winmau Plasma LED ring
-- McDart Catchring Premium
-- Raspberry 3B+
-- Aukey PC-LM1E Cams (They are working but they're having little distortion which causes a litte offset which leads to a little less correct recognition)
-
-<img src="images/NullP0intCamDistortion1.jpg" width="40%" height="40%">
-<img src="images/NullP0intCamDistortion2.jpg" width="40%" height="40%">
-<img src="images/NullP0intCamDistortion3.jpg" width="40%" height="40%">
-<img src="images/SetupFromFront.jpg" width="40%" height="40%">
-<img src="images/CamHolderFromFront.jpg" width="40%" height="40%">
-<img src="images/CamHolderBehind.jpg" width="40%" height="40%">
-
-### **Bomber74 setup**
-
-- Winmau Blade 5
-- Winmau Plasma LED ring
-- OV2710 Cams
-- Self printed cam holders
-
-<img src="images/Bomber74_PlasmaHolder.png" width="20%" height="20%">
-<img src="images/Bomber74_boardView.png" width="40%" height="40%">
 
 ### Cameras which are not working
 

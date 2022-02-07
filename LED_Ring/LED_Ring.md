@@ -22,7 +22,7 @@ The lid is always optional but highly recommended. It does not only serve aesthe
 
 **Option 2**
 
-![alt text](https://github.com/kriminolle/docs/blob/e42b9119635a129260e151d60b1203bfb84ab232/LED_Ring/ledRingImages/plasma_arm_assembly_webcam_git.png)
+![alt text](https://github.com/kriminolle/docs/blob/a98cdf8405e9218550d83dada4886847bcfba8bd/LED_Ring/ledRingImages/plasma_arm_assembly_webcam_git.png)
 
 For use with a webcam with a standard camera mount thread, you need to replace the arm and lid file with
 - 3x plasma_arm_foot_webcam.stl

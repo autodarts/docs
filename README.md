@@ -27,10 +27,6 @@ If you are using a Raspberry Pi we are recommand to use a Lite version which you
 
 Here is a very good tutorial how to set up you system and install autodarts for a Rasbperry Pi if you want to have a desktop version. Thanks to PixelStarFish for his [Raspberry Pi desktop tutorial](RP4-Raspbian-Desk-Setup.md).
 
-Depends on which operating system or device you want to use the installation will differ. But what you need is to install the latest version of OpenCV on the machine. Here is a little tutorial for a Raspberry Pi [Rasbperry Pi OpenCV installation guide](https://lindevs.com/install-precompiled-opencv-on-raspberry-pi/?fbclid=IwAR1sQwRH1FWbewNg4_Aomga-ZBbx3Di25C2mHrVqGTVxwiIKS31R0Pa8q5Y)
-
-Of course you can almost use every linux based system. If you have Ubuntu 20.04 you can have a look at this link [Ubuntu 20.04 OpenCv installation guide](https://vitux.com/opencv_ubuntu/)
-
 Because you need to connect three webcams to your machine you should check if every cam is working correctly. For that you can have a look in the [configuration section](#configure-autodarts) As soon as you've done that you are ready to go. 
 
 ### Get Autodarts running

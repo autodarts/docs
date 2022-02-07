@@ -60,6 +60,18 @@ In addition, you will need a led stripe that is glued to the inside of the ring.
 - 1x Led Stripe min. 2,2 meter long [LED Stripe](https://www.amazon.de/gp/product/B07TJXZNDZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - 1x In-Line Switch [In-Line Switch](https://www.amazon.de/UEETEK-Streifen-Aus-schalter-Stecker-Schalter-Wie-gezeigt/dp/B077HKVYRY/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14UX4NT2N44A4&keywords=inline+an+ausschalter&qid=1641925914&sprefix=inline+an+aus+schalte%2Caps%2)
 
+I added a new arm design, which is built modular. The top of the arm has a universal mount, so anybody can design his own camera mount module for his specific camera module or webcam board. I will include the step file of the arm so everyone can measure and built around it. 
+
+![alt text](https://github.com/kriminolle/docs/blob/0abc800cc7dfb11093a5b73170c6b74c796252d1/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git.png)
+![alt text](https://github.com/kriminolle/docs/blob/0abc800cc7dfb11093a5b73170c6b74c796252d1/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git_2.png)
+
+You will need to print the following files:
+- 3x plasma_arm_foot_modular.stl
+- 3x plasma_foot_webcam.stl or print_foot_webcam.stl
+- 3x plasma_foot_lid.stl
+- 3x plasma_lid.stl
+- 3x your self designed modular camera mount
+
 ### Download files
 
 - [.stl files](./stl/)

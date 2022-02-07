@@ -8,7 +8,7 @@ For use with Winmau Plasma Ring you have the following options:
 
 **Option 1**
 
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/plasma_assembly.png)
+![alt text](https://github.com/kriminolle/docs/blob/b6edcddc7f2e7db66fc67923cb3ae580d0773348/LED_Ring/ledRingImages/plasma_assembly_git.png)
 
 You want to use it in combination with my arms and feet. You then need to print the following files:
 - 3x plasma_arm_foot.stl
@@ -41,7 +41,7 @@ For use with a webcam with a standard camera mount thread, you need to replace t
 
 I also designed an alternative for the Winmau Plasma ring, which is completely printable. The system is completely compatible with the arms for the conventional ring. The foot is slightly different, so you have to make sure to print the correct file. 
 
-![alt text](https://github.com/kriminolle/docs/blob/9ecdc61ad651c16dfa2b162bc9773553f9fb55f4/LED_Ring/ledRingImages/print_assembly.png)
+![alt text](https://github.com/kriminolle/docs/blob/b6edcddc7f2e7db66fc67923cb3ae580d0773348/LED_Ring/ledRingImages/print_assembly_git.png)
 
 You will need to print the following files for the ring:
 

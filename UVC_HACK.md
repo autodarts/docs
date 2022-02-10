@@ -32,6 +32,10 @@ cd kernel
 
 sudo nano /etc/apt/sources.list
 
+/* After that reload your new sources /*
+
+sudo apt-get update
+
 /* Getting the source */
 
 sudo apt-get source linux-image-unsigned-$(uname -r)

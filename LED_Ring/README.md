@@ -60,7 +60,7 @@ In addition, you will need a led stripe that is glued to the inside of the ring.
 - [1x Led Stripe min. 2,2 meter long](https://www.amazon.de/gp/product/B07TJXZNDZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - [1x In-Line Switch](https://www.amazon.de/UEETEK-Streifen-Aus-schalter-Stecker-Schalter-Wie-gezeigt/dp/B077HKVYRY/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14UX4NT2N44A4&keywords=inline+an+ausschalter&qid=1641925914&sprefix=inline+an+aus+schalte%2Caps%2)
 
-I added a new arm design, which is built modular. The top of the arm has a universal mount, so anybody can design his own camera mount module for his specific camera module or webcam board. I will include the step file of the arm so everyone can measure and built around it. 
+I added a new arm design, which is built modular. The top of the arm has a universal mount, so anybody can design his own camera mount module for his specific camera module or webcam board. I will include the step file of the arm so everyone can measure and built around it. The belov shown example is for the arducam style cams and can be found in the directoriy with the other stl files.
 
 ![alt text](https://github.com/autodarts/docs/blob/63067eb081ddadeefdf8df18d90cb9e24c192377/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git.png)
 ![alt text](https://github.com/autodarts/docs/blob/63067eb081ddadeefdf8df18d90cb9e24c192377/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git_2.png)

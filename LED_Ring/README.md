@@ -66,10 +66,10 @@ I added a new arm design, which is built modular. The top of the arm has a unive
 ![alt text](https://github.com/autodarts/docs/blob/63067eb081ddadeefdf8df18d90cb9e24c192377/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git_2.png)
 
 You will need to print the following files:
-- [3x plasma_arm_foot_modular.stl](https://github.com/kriminolle/docs/blob/3a6fc13b67626a624d3047844758a6548c30c2fd/LED_Ring/stl/plasma_arm_foot_modular.stl)
+- [3x plasma_arm_foot_modular.stl](https://github.com/autodarts/docs/blob/c5b7c4628c8e6298401f7d914f7169c583bcb669/LED_Ring/stl/plasma_arm_foot_modular.stl)
 - [3x plasma_foot_webcam.stl](https://github.com/kriminolle/docs/blob/3a6fc13b67626a624d3047844758a6548c30c2fd/LED_Ring/stl/plasma_foot_webcam.stl) or [print_foot_webcam.stl](https://github.com/kriminolle/docs/blob/3a6fc13b67626a624d3047844758a6548c30c2fd/LED_Ring/stl/print_foot_webcam.stl)
 - [3x plasma_foot_lid.stl](https://github.com/kriminolle/docs/blob/3a6fc13b67626a624d3047844758a6548c30c2fd/LED_Ring/stl/plasma_foot_lid.stl)
-- [3x plasma_lid.stl](https://github.com/kriminolle/docs/blob/3a6fc13b67626a624d3047844758a6548c30c2fd/LED_Ring/stl/plasma_lid.stl)
+- [3x plasma_lid_modular.stl](https://github.com/autodarts/docs/blob/66db75d57ce9c3542f3af904b75c4fae33df61c2/LED_Ring/stl/plasma_lid_modular.stl)
 - 3x your self designed modular camera mount
 
 ### Download files

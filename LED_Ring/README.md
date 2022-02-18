@@ -62,8 +62,8 @@ In addition, you will need a led stripe that is glued to the inside of the ring.
 
 I added a new arm design, which is built modular. The top of the arm has a universal mount, so anybody can design his own camera mount module for his specific camera module or webcam board. I will include the step file of the arm so everyone can measure and built around it. 
 
-![alt text](https://github.com/kriminolle/docs/blob/0abc800cc7dfb11093a5b73170c6b74c796252d1/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git.png)
-![alt text](https://github.com/kriminolle/docs/blob/0abc800cc7dfb11093a5b73170c6b74c796252d1/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git_2.png)
+![alt text](https://github.com/autodarts/docs/blob/63067eb081ddadeefdf8df18d90cb9e24c192377/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git.png)
+![alt text](https://github.com/autodarts/docs/blob/63067eb081ddadeefdf8df18d90cb9e24c192377/LED_Ring/ledRingImages/plasma_arm_assembly_modular_git_2.png)
 
 You will need to print the following files:
 - [3x plasma_arm_foot_modular.stl](https://github.com/kriminolle/docs/blob/3a6fc13b67626a624d3047844758a6548c30c2fd/LED_Ring/stl/plasma_arm_foot_modular.stl)

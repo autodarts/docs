@@ -75,6 +75,6 @@ You will need to print the following files:
 ### Download files
 
 - [stl files](./stl/)
-- [step file for modular mount](https://github.com/kriminolle/docs/blob/aa7a86ecb28a25d0308a71e305a6c66aafe6adf8/LED_Ring/plasma_arm_foot_modular.stp)
+- [step file for modular mount](https://github.com/kriminolle/docs/blob/92d6d753f4e7a056a6f3d9ae15ad1ad9acad8572/LED_Ring/step/plasma_arm_top_module_38x38.stp)
 
 Happy printing and feel free to support our project in the discord :)

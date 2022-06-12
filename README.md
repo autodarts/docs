@@ -156,6 +156,14 @@ If you want to get an explanation which setting does what you can have a look he
 
 If you have a problem maybe this troubleshooting guide will help. [Troubleshooting Guide](https://github.com/autodarts/docs/blob/main/Troubleshooting.md)
 
+## Camera Compatibility Survey
+
+Due to the fact that some people have problems sourcing cameras, there's a survey for you that've managed to successfully set up the system.
+
+You can [answer it here](https://docs.google.com/forms/d/e/1FAIpQLSe7zMqGVKoy9SVLDBFEVjK4ML94uv3qFjijIDYfAe4X98drbQ/viewform).
+
+And the [results are located here](https://docs.google.com/spreadsheets/d/10Yi3jo4hh68HkW8BPxsA6sotaS6_KsnlQFiijFfYrbA/edit#gid=1005152227).
+
 ### Cameras which are not working
 
 - https://www.amazon.de/dp/B09GJRKVLK/ref=cm_sw_r_apan_glt_i_dl_APRJ92Y280T4AWR0TSFA?_encoding=UTF8&th=1

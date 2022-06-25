@@ -70,8 +70,12 @@ You will need to print the following files:
 - [3x plasma_foot_webcam.stl](https://github.com/autodarts/docs/blob/b84d5994cbd53f3e593a7400c3d343d084ee7010/LED_Ring/stl/plasma_foot_webcam.stl) or [print_foot_webcam.stl](https://github.com/autodarts/docs/blob/b84d5994cbd53f3e593a7400c3d343d084ee7010/LED_Ring/stl/print_foot_webcam.stl)
 - [3x plasma_foot_lid.stl](https://github.com/kriminolle/docs/blob/3a6fc13b67626a624d3047844758a6548c30c2fd/LED_Ring/stl/plasma_foot_lid.stl)
 - [3x plasma_lid_modular.stl](https://github.com/autodarts/docs/blob/66db75d57ce9c3542f3af904b75c4fae33df61c2/LED_Ring/stl/plasma_lid_modular.stl)
-- 3x your self designed modular camera mount
-
+- 3x your self designed modular camera mount or...
+-   option moertek mc920:
+    - [3x modular_webcam_moertek.stl](https://github.com/joejoefsc/docs/blob/main/LED_Ring/stl/modular_webcam_moertek.stl)
+    - [3x modular_webcam_moertek_lid.stl](https://github.com/joejoefsc/docs/blob/main/LED_Ring/stl/modular_webcam_moertek_lid.stl)  
+    - optional (for better calibration) [3x arm_extender.stl](https://github.com/joejoefsc/docs/blob/main/LED_Ring/stl/arm_extender.stl) 
+ 
 ### Download files
 
 - [stl files](./stl/)

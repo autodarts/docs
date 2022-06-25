@@ -72,9 +72,9 @@ You will need to print the following files:
 - [3x plasma_lid_modular.stl](https://github.com/autodarts/docs/blob/66db75d57ce9c3542f3af904b75c4fae33df61c2/LED_Ring/stl/plasma_lid_modular.stl)
 - 3x your self designed modular camera mount or...
 -   option moertek mc920:
-    - [3x modular_webcam_moertek.stl](https://github.com/joejoefsc/docs/blob/main/LED_Ring/stl/modular_webcam_moertek.stl)
-    - [3x modular_webcam_moertek_lid.stl](https://github.com/joejoefsc/docs/blob/main/LED_Ring/stl/modular_webcam_moertek_lid.stl)  
-    - optional (for better calibration) [3x arm_extender.stl](https://github.com/joejoefsc/docs/blob/main/LED_Ring/stl/arm_extender.stl) 
+    - [3x modular_webcam_moertek.stl]([https://github.com/joejoefsc/docs/blob/main/LED_Ring/stl/modular_webcam_moertek.stl](https://github.com/autodarts/docs/blob/main/LED_Ring/stl/modular_webcam_moertek.stl))
+    - [3x modular_webcam_moertek_lid.stl]([https://github.com/joejoefsc/docs/blob/main/LED_Ring/stl/modular_webcam_moertek_lid.stl](https://github.com/autodarts/docs/blob/main/LED_Ring/stl/modular_webcam_moertek_lid.stl))  
+    - optional (for better calibration) [3x arm_extender.stl](https://github.com/autodarts/docs/blob/main/LED_Ring/stl/arm_extender.stl) 
  
 ### Download files
 

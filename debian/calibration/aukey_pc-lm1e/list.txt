@@ -1,0 +1,92 @@
+PC-LM1E: PC-LM1E (usb-0000:00:1a.0-1.3):
+	/dev/video0
+	/dev/video1
+	/dev/media0
+
+PC-LM1E: PC-LM1E (usb-0000:00:1a.0-1.4):
+	/dev/video2
+	/dev/video3
+	/dev/media1
+
+PC-LM1E: PC-LM1E (usb-0000:00:1d.0-1.8):
+	/dev/video4
+	/dev/video5
+	/dev/media2
+
+Driver Info:
+	Driver name      : uvcvideo
+	Card type        : PC-LM1E: PC-LM1E
+	Bus info         : usb-0000:00:1a.0-1.3
+	Driver version   : 5.10.140
+	Capabilities     : 0x84a00001
+		Video Capture
+		Metadata Capture
+		Streaming
+		Extended Pix Format
+		Device Capabilities
+	Device Caps      : 0x04200001
+		Video Capture
+		Streaming
+		Extended Pix Format
+Media Driver Info:
+	Driver name      : uvcvideo
+	Model            : PC-LM1E: PC-LM1E
+	Serial           : PC-LM1E
+	Bus info         : usb-0000:00:1a.0-1.3
+	Media version    : 5.10.140
+	Hardware revision: 0x00000100 (256)
+	Driver version   : 5.10.140
+Interface Info:
+	ID               : 0x03000002
+	Type             : V4L Video
+Entity Info:
+	ID               : 0x00000001 (1)
+	Name             : PC-LM1E: PC-LM1E
+	Function         : V4L2 I/O
+	Flags         : default
+	Pad 0x01000007   : 0: Sink
+	  Link 0x02000010: from remote pad 0x100000a of entity 'Extension 3': Data, Enabled, Immutable
+Priority: 2
+Video input : 0 (Camera 1: ok)
+Format Video Capture:
+	Width/Height      : 1920/1080
+	Pixel Format      : 'MJPG' (Motion-JPEG)
+	Field             : None
+	Bytes per Line    : 0
+	Size Image        : 4147789
+	Colorspace        : Default
+	Transfer Function : Default (maps to Rec. 709)
+	YCbCr/HSV Encoding: Default (maps to ITU-R 601)
+	Quantization      : Default (maps to Full Range)
+	Flags             : 
+Crop Capability Video Capture:
+	Bounds      : Left 0, Top 0, Width 1920, Height 1080
+	Default     : Left 0, Top 0, Width 1920, Height 1080
+	Pixel Aspect: 1/1
+Selection Video Capture: crop_default, Left 0, Top 0, Width 1920, Height 1080, Flags: 
+Selection Video Capture: crop_bounds, Left 0, Top 0, Width 1920, Height 1080, Flags: 
+Streaming Parameters Video Capture:
+	Capabilities     : timeperframe
+	Frames per second: 30.000 (30/1)
+	Read buffers     : 0
+                     brightness 0x00980900 (int)    : min=-64 max=64 step=1 default=0 value=0
+                       contrast 0x00980901 (int)    : min=0 max=64 step=1 default=32 value=32
+                     saturation 0x00980902 (int)    : min=0 max=128 step=1 default=56 value=56
+                            hue 0x00980903 (int)    : min=-40 max=40 step=1 default=0 value=0
+ white_balance_temperature_auto 0x0098090c (bool)   : default=1 value=1
+                          gamma 0x00980910 (int)    : min=72 max=500 step=1 default=100 value=100
+                           gain 0x00980913 (int)    : min=0 max=1 step=1 default=0 value=0
+           power_line_frequency 0x00980918 (menu)   : min=0 max=2 default=1 value=1
+				0: Disabled
+				1: 50 Hz
+				2: 60 Hz
+      white_balance_temperature 0x0098091a (int)    : min=2800 max=6500 step=1 default=4600 value=4600 flags=inactive
+                      sharpness 0x0098091b (int)    : min=0 max=6 step=1 default=3 value=3
+         backlight_compensation 0x0098091c (int)    : min=0 max=6 step=1 default=2 value=2
+                  exposure_auto 0x009a0901 (menu)   : min=0 max=3 default=3 value=3
+				1: Manual Mode
+				3: Aperture Priority Mode
+              exposure_absolute 0x009a0902 (int)    : min=1 max=5000 step=1 default=157 value=157 flags=inactive
+         exposure_auto_priority 0x009a0903 (bool)   : default=0 value=1
+                 focus_absolute 0x009a090a (int)    : min=1 max=1023 step=1 default=240 value=240 flags=inactive
+                     focus_auto 0x009a090c (bool)   : default=1 value=1

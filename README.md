@@ -140,7 +140,7 @@ For the calibration you just need to drag the points (3-19, 6-10, 11-14, 20-1) t
 
 When this is done for all three cameras you can click on the blue disk button on the right side. After you clicked the button you will see the segents edges overlayed to your board. If you did it very precise than the edges should match with your wires. If not you propably bought cams with distortion. But even than the recognition is also working very well. Just give it a try :)
 
-This happens when your cameras have too much distortion. But no worries you can correct them if you follow this guide: [Camera distortion.json guide](https://github.com/autodarts/cam-calibration)
+This happens when your cameras have too much distortion. But don't worry, you can solve them with two options. Hardware solution (replace the original lens with ELP lens H100) or follow this guide: [Camera distortion.json guide](https://github.com/autodarts/cam-calibration)
 
 <img src="images/WithMuchDistortion.JPG" width="40%" height="40%">
 

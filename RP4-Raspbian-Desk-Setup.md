@@ -99,30 +99,33 @@ ___
 
 ### Get Autodarts running
 
-- Now your are ready to get the Autodarts - File
-- Assuming you get your OK from the developer you should have the Download-Link
-  - Otherwise contribute in the Discord Server and call out in the specific Channel that you are ready to go
-  - You then will get the Download Link and your User-Credentials (aka: Board-ID and API-Key)
-- In the console type follwing command to donwload the File:
+You can install autodarts on a Linux system by using this single command. It will automatically download the latest version and install a systemd service to automatically start autodarts on startup. You might have to install curl on your machine beforehand. You can do so with sudo apt install curl.
 ```
-wget *DOWNLAODLINK*
+bash <(curl -sL get.autodarts.io)
 ```
-- Then unzip it with the following command:
+If you do not want the autostart systemd service to be installed, you can use the -n flag as follows.
+```
+bash <(curl -sL get.autodarts.io) -n
+```
+If you want to install a specific version, say, 0.16.0, then you can append the required version to the command as follows. This can be helpful if you want to downgrade to an earlier version. This also works with the -n flag from before.
+```
+bash <(curl -sL get.autodarts.io) 0.16.0
+```
+You can control the the autodarts.service with the systemctl command.
+```
+sudo systemctl start autodarts
+sudo systemctl stop autodarts
+sudo systemctl restart autodarts
+sudo systemctl status autodarts
+sudo systemctl disable autodarts
+sudo systemctl enable autodarts
+```
+If you want to see the log output, you can use the following command.
+```
+journalctl -u autodarts -f
+```
+For Windows and MacOS, which are not well tested, you can go to the releases pages and download the individual versions directly from there. Make sure that you download the correct version for your Mac, Intel vs Apple Silicon (amd64 vs arm64).
 
-*Important to change the specific filename if the version Changes!!!*
-```
-sudo unzip autodarts-0.15.5-pi-armv7l.zip -d /usr/local/bin/
-```
-
-- Create User-rights for Autodarts
-```
-sudo chmod +x /usr/local/bin/autodarts
-```
-
-- And now Finally:
-```
-autodarts
-```
 <img src="images/consoleauto.jpg" width="30%" height="30%">
 
 

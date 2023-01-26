@@ -1,0 +1,54 @@
+{
+  "main.js": {
+    "src": "js/main-56ca818c.bundle.min.js",
+    "integrity": "sha512-RoKzcPqRcpkjrZTHiur+7kwCtXj+Ix957qn403vINIWDtXasSTSdyAqiIPjeOByLGIK07H2Qp0Gpdb2DEZViUA=="
+  },
+  "colortheme.js": {
+    "src": "js/colortheme-d3e4d351.bundle.min.js",
+    "integrity": "sha512-HpQogL/VeKqG/v1qYOfJOgFUzBnQvW4yO4tAJO+54IiwbLbB9feROdeaYf7dpO6o5tSHsSZhaYLhtLMRlEgpJQ=="
+  },
+  "mermaid.js": {
+    "src": "js/mermaid-5b93fce4.bundle.min.js",
+    "integrity": "sha512-FCMjppQhGRcDVLBGjHcpqWJywcSEMmVi/LLAceniu8SXtAwGREGtJoXBuRvRem+/hQ2FeGpNIilrqLce9auLHg=="
+  },
+  "katex.js": {
+    "src": "js/katex-260824b9.bundle.min.js",
+    "integrity": "sha512-VRUFMiEjq34IyQ9yLcZSmqw330Yc9AC0qJihossQKLd9iwF5Lrj3VKfO4aixkKwN7u6z+AyR04P7BznwK6FEhg=="
+  },
+  "search.js": {
+    "src": "js/search-5a80054d.bundle.min.js",
+    "integrity": "sha512-DJhnQP/asmExh6ReQhwBr9XVCJiQo/MRlYhdSeH9ZqFJi78g0J8ZrpIx4OPMVnrldE7frVqwWjsARuAdPU0IPw=="
+  },
+  "js/748-03e0b93c.chunk.min.js": {
+    "src": "js/748-03e0b93c.chunk.min.js",
+    "integrity": "sha512-dOY8/ir/9nerEwAZKW6G5apr0E8ZZ4yetiKaYTA5Enk1ads1SH80GQA6EoYOgZkbeCcp038aBghTqAm/Wo3heg=="
+  },
+  "js/116-52c6e208.chunk.min.js": {
+    "src": "js/116-52c6e208.chunk.min.js",
+    "integrity": "sha512-xr24yJ7oRgGT1OeCfzaoLmBd2jdBQTsQdblyBEnDCFi3rxyI6ZhFXl21WubEVramLT+FTvggGaI0dkeCvX8zbA=="
+  },
+  "js/999-fe121c0a.chunk.min.js": {
+    "src": "js/999-fe121c0a.chunk.min.js",
+    "integrity": "sha512-avKTM9rcJYwZUREuwt0AerPXxI4HDk3MN8opm58/M/VPUxQPqhtRU7DK8f3RbX4IpvFWm8pW1LazTFbqyXBLEg=="
+  },
+  "main.scss": {
+    "src": "main-1ebf16ca.min.css",
+    "integrity": "sha512-eWPzcKZuXLcuPTwPxQFWf+1ohfsQ9MgfyhVEPL8HCa/KNu37Tf7mxA7NIkmjAzSvuoIyCqjm0TCU5l2c5AczGQ=="
+  },
+  "katex.css": {
+    "src": "katex-6c55f6d5.min.css",
+    "integrity": "sha512-XL4wG/st8uUOZWtlek14ZJ4RHzPk7o8Hs83qr1YvniBG24g+LJLaTqgLjf6kq4z60SL5wFwhsh6k4DqGFVeAow=="
+  },
+  "mobile.scss": {
+    "src": "mobile-79ddc617.min.css",
+    "integrity": "sha512-dzw2wMOouDwhSgstQKLbXD/vIqS48Ttc2IV6DeG7yam9yvKUuChJVaworzL8s2UoGMX4x2jEm50PjFJE4R4QWw=="
+  },
+  "print.scss": {
+    "src": "print-735ccc12.min.css",
+    "integrity": "sha512-c28KLNtBnKDW1+/bNWFhwuGBLw9octTXA2wnuaS2qlvpNFL0DytCapui9VM4YYkZg6e9TVp5LyuRQc2lTougDw=="
+  },
+  "custom.css": {
+    "src": "custom.css",
+    "integrity": "sha512-1kALo+zc1L2u1rvyxPIew+ZDPWhnIA1Ei2rib3eHHbskQW+EMxfI9Ayyva4aV+YRrHvH0zFxvPSFIuZ3mfsbRA=="
+  }
+}

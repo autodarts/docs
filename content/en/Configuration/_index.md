@@ -1,6 +1,19 @@
 ---
-title: Config
+draft: true
+language: "English"
+author: "Steve_Mutter"
 ---
+
+
+## In this section you will learn how to Configure the Parts of the System
+
+
+[comment]: <> (Maybe using this kind of switchable Table to keep things organized?)
+
+{{< tabs "Install Tab" >}}
+{{< tab "Board Manager" >}} 
+
+# Board Manager Config Tab
 
 I want to share a couple of words on the config settings under`Motion Detection` and `Dart Detection` so you can better adjust them to your needs.
 
@@ -50,3 +63,13 @@ The threshold defines how many votes a line needs.
 The `Min Line Length` and `Max Line Gap` should be quite self-explanatory.
 Again, they refer to values in pixels.
 So, how long a line at least has to be, to be considered, as well as how far apart two lines are allowed to be, to be combined into one single, long line.
+{{< /tab >}}
+
+
+{{< tab "Other Stuff" >}} 
+# Other Stuff Content 
+{{< /tab >}}
+{{< tab "More Other Stuff" >}}
+# More Other Stuff Content 
+{{< /tab >}}
+{{< /tabs >}}

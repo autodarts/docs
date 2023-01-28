@@ -1,6 +1,10 @@
 ---
-title: 3D-Printing
+title: "3D Printing"
+draft: true
+language: "English"
+author: "TmO"
 ---
+
 
 ## A guide to 3d print your own camera arms and led ring
 
@@ -17,7 +21,7 @@ For use with Winmau Plasma Ring you have the following options:
 
 **Option 1**
 
-![alt text](/3d-printing/images/plasma_assembly_git.png)
+![alt text](/3d-printing/images/camera_mount_example_1.jpg)
 
 You want to use it in combination with my arms and feet.
 You then need to print the following files:

@@ -21,7 +21,7 @@ For use with Winmau Plasma Ring you have the following options:
 
 **Option 1**
 
-![alt text](/3d-printing/images/camera_mount_example_1.jpg)
+![alt text](/3d-printing/images/plasma_assembly_git.png)
 
 You want to use it in combination with my arms and feet.
 You then need to print the following files:

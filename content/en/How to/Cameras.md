@@ -3,6 +3,8 @@ title: "Cameras"
 draft: true
 language: "English"
 author: "Steve_Mutter"
+weight: "1"
+lang: "en"
 ---
 
 
@@ -28,7 +30,7 @@ For accurate recognition, ensure that the camera fully captures the dart from al
 ## Some pretty examples from the Community
 
 [comment]: <> (Ask for Permission to use the Images from @Icke and @Oliver Beyer via Discord DM / No Response yet)
-[comment]: <> (@Olvicer Beyer has consented to the use of his images)
+[comment]: <> (@Oliver Beyer has consented to the use of his images)
 [comment]: <> (/camera-mount/images/camera_mount_example_1.jpg)
 ![@Oliver Beyer / #Setup Showcase](/camera-mount/images/camera_mount_example_2.jpg)
 

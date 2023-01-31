@@ -3,6 +3,8 @@ title: "Tutorials"
 draft: true
 language: "English"
 author: ""
+weight: "5"
+lang: "en"
 ---
 
 

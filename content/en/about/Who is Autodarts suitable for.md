@@ -3,6 +3,8 @@ title: "Who is Autodarts suitable for?"
 draft: true
 language: "English"
 author: "Steve_Mutter"
+weight: "1"
+lang: "en"
 ---
 
 Basically, autodarts is a system for anyone who enjoys playing darts. 

@@ -2,6 +2,7 @@
 draft: true
 language: "English"
 author: "Steve_Mutter"
+lang: "en"
 ---
 
 Autodarts.io is an DIY camera-based automatic scoring system for steel dart boards. 

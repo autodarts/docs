@@ -2,6 +2,7 @@
 draft: true
 language: "English"
 author: "TmO"
+lang: "en"
 ---
 [comment]: <> (Maybe using this kind of switchable Table to keep things organized?)
 [comment]: < > (spelling + wording)

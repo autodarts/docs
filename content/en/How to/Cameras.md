@@ -3,6 +3,8 @@ title: "Cameras"
 draft: true
 language: "English"
 author: "Steve_Mutter"
+weight: "1"
+lang: "en"
 ---
 
 

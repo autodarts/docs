@@ -1,5 +1,5 @@
 ---
-title: "Troubleshooting"
+title: "Could not warm up"
 draft: true
 language: "English"
 author: ""

@@ -24,7 +24,9 @@ Autodarts supports a wide range of webcams. However, it is not recommended to ju
 
 > Stable Framerate around 30FPS
 
-> Most systems are played between resolutions of 800x600 to 1024x768 (Higher resolutions currently have almost no effect on accuracy)
+> Most systems are played between resolutions of 640x480 to 1280x720 (Higher resolutions currently have almost no effect on accuracy)
+
+![Boards by Resolution](/statistics/images/boards_by_resolution.png)
 
 With most cameras, it is relatively easy to exchange the lenses afterwards to achieve the desired field of view. 
 

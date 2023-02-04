@@ -1,82 +1,91 @@
 ---
 draft: true
-language: "English"
 author: "TmO"
-lang: "en"
+lang: "de"
 ---
-[comment]: <> (Maybe using this kind of switchable Table to keep things organized?)
-[comment]: < > (spelling + wording)
 
 
-## In this section you will learn how to Configure the Parts of the System
 
-Here, Motion Detection and Dart Detection are explained, so you can better adjust them to your needs.
+## In diesem Abschnitt erfährst du, wie das Systems konfiguriert werden kann.
 
-Let us start with the two most important ones first.
-The `Diff Image > Threshold` both under "Motion Detection" and "Dart Detection" is used to calculate the difference between the image before the dart hit and the image right after.
-For optimal results this image should be crystal clear.
-That is, there should be a clear outline of the dart visible but there shouldn't be any artifacts in the background.
-You can check that best while throwing some darts and observing the `Motion` tab in the Board Manager.
-Higher `Threshold` will typically result in less visible dart contours but also in less background.
-Lower `Threshold` values will result in clearer dart contour but at the expense of picking up background.
-Set it so that you are right in between.
+Hier werden die Bewegungserkennung und die Dart-Erkennung erklärt, damit diese besser an dein System angepasst werden können.
 
-It is generally recommended to keep the Diff Image > Threshold the same for Motion Detection and Dart Detection, but it can have a positive effect to set them differently."
+{{< hint type=hint icon=gdoc_error_outline >}}
+<p>Da die Config Seite aktuell nur in Englisch verfügbar ist verwenden wir in diesem Abschnitt auch die Englischen Begriffe.<br>
+<br>
+Diff Image = Bilddifferenz<br>
+Treshold= Schwellenwert<br>
+Motion Detection= Bewegungserkennung<br>
+Dart Detection= Darterkennung<br>
+Object Detection= Objekterkennung<br>
+Dart Size= Dartpfeilgröße<br>
+Hand Size= Handgröße<br>
+ROI/Region of Interest= Region/Bereich von Interesse</p>
+{{< /hint >}}
 
-Play with these values to optimize the diff image.
-It will have quite a big impact on the detection overall.
+Beginnen wir zunächst mit den beiden wichtigsten.
+Die Funktion `Bilddifferenz(Diff Image) und Schwellenwert(Treshold)` wird sowohl unter `Bewegungserkennung(Motion Detection)` als auch unter `Darterkennung(Dart-Detection)` verwendet, um den Unterschied zwischen dem Bild vor dem Dart-Treffer und dem Bild direkt danach zu berechnen.
+
+Für optimale Ergebnisse sollte dieses Bild kristallklar sein.
+Das heißt, die Umrisse des Dartpfeils sollten klar erkennbar sein, aber es sollten keine Artefakte im Hintergrund zu sehen sein.
+Das kannst du am besten überprüfen, indem du ein paar Darts wirfst und die Registerkarte `Motion` im Board Manager beobachtest.
+Ein höherer `Schwellenwert(Treshold)` führt in der Regel zu weniger sichtbaren Konturen des Pfeils, aber auch zu weniger Hintergrund.
+Niedrigere `Schwellenwert(Treshold)` Werte führen zu klareren Konturen des Pfeils, allerdings auf Kosten der Erfassung des Hintergrunds.
+Stellen Sie ihn so ein, dass Sie genau dazwischen liegen.
+
+Im Allgemeinen wird empfohlen, die Einstellung `Bilddifferenz(Diff Image) und Schwellenwert(Treshold)` für die `Bewegungserkennung(Motion Detection)` und die `Darterkennung(Dart Detection)` gleich zu halten, aber es kann sich positiv auswirken, sie unterschiedlich einzustellen.
+
+Spielen Sie mit diesen Werten, um die `Bilddifferenz(Diff Image)` zu optimieren.
+Das wird sich auf die Erkennung insgesamt ziemlich stark auswirken.
 
 {{< tabs "Install Tab" >}}
 {{< tab "Motion Detection" >}} 
 
-# Gaussian Kernel
+# Gaußsches Weichzeichnen
 
-Next is the `Gaussian Kernel`.
-It is used to blur the diff image to get rid of background noise.
-You can only set it to odd values.
-Higher values will take more time to compute, which is why I default them to `3` and `5` for `Motion Detection` and `Dart Detection`, respectively.
-They do not have a big impact on the detection, so you should keep them as is, if you do not face any problems related to it.
+Als nächstes folgt der `Gaußsche Kernel`.
+Er wird verwendet, um die `Bilddifferenz(Diff Image)` unscharf/weicher zu machen und Hintergrundrauschen zu entfernen.
+Der Wert kann nur in ungeraden Schritten eingestellt werden.
+Höhere Werte benötigen mehr Zeit für die Berechnung, weshalb sie standardmäßig auf "3" für `Bewegungserkennung(Motion Detection)` und "5" für die `Pfeilerkennung(Dart Detection)` eingestellt sind.
+Sie haben keinen großen Einfluss auf die Erkennung, daher sollten die Standartwerte so belassen werden, solange es keine Probleme damit gibt.
+
+{{< hint type=hint icon=gdoc_error_outline >}}
+Eine typische Softwarelösung zur Weichzeichnung von digitalen Fotos ist der Gaußsche Weichzeichner mit Hilfe des Gauß-Filters. Der Name beruht dabei auf der „Gaußschen“ Normalverteilung, die durch Johann Carl Friedrich Gauß entwickelt wurde. 
+{{< /hint >}}
 
 {{< /tab >}}
 
 {{< tab "Object Detection" >}} 
 
-# Object Detection
+# Objekterkennung
 
-The `Object Detection` holds the config parameters related to the differentiation between dart and hand.
-Very simplistically spoken, a dart is smaller than a hand, and that is how the software detects it (believe it or not).
-So the `Dart Size: Min` and `Dart Size: Max` are values that define the boundaries of how small an object at least has to be to be detected as a dart as well as how large it is allowed to be at max.
-These values are representing areas in the image but you can think of them as the total number of pixels in your image that makes up the dart.
-I typically put the `Hand Size: Min` to be a lot higher than the `Dart Size: Max` but there is no real reason for it.
-Once an object has more pixels than this value, it is considered to be a hand.
+Die `Object Detection(Objekterkennung)` enthält die Konfigurationsparameter für die Unterscheidung zwischen Pfeil und Hand.
+Vereinfacht gesagt ist ein Dartpfeil kleiner als eine Hand, und so wird er von der Software erkannt (ob Sie es glauben oder nicht).
+`Dart Size: Min` und `Dart Size: Max` sind Werte, die festlegen, wie klein ein Objekt mindestens sein muss, und wie groß es maximal sein darf um als Dartpfeil erkannt zu werden. Diese Werte stellen Bereiche im Bild dar, aber Sie können sie sich als die Gesamtzahl der Pixel in Ihrem Bild vorstellen, aus denen der Dart besteht. Normalerweise ist der Wert für `Hand Size: Min` viel höher an als die `Dart Size: Max`, aber es gibt keinen wirklichen Grund dafür.
+Sobald ein Objekt mehr Pixel hat als der Wert für `Dart Size: Max`, wird es als Hand betrachtet.
 
 {{< /tab >}}
 {{< tab "Dart Detection" >}}
 
-# Dart Detection
+# Darterkennung
 
-In the `Dart Detection`, there is a sub-section called `ROI Detection`.
-The ROI is the region-of-interest in the full-resolution image.
-I use the motion detection which runs on a much smaller resolution (to be fast) to calculate where the dart would be in the full-resolution image.
-To figure out the ROI, I combine all the so-called blobs (objects in the image made up of pixels) that exceed a certain size (again in pixels).
-The ROI is simply the bounding box (a rectangle) of those combined blobs.
-I typically set this quite low, lower than the `Dart Size: Min`.
-Keep in mind that the number of pixels here refer to the motion resolution, which is `4` times smaller than the detection resolution.
+Unter `Darterkennung(Dart Detection)` gibt es einen Unterabschnitt mit der Bezeichnung `ROI Detection`.
+Die ROI ist die Region von Interesse im Bild mit voller Auflösung. Ich verwende die Bewegungserkennung, die mit einer viel geringeren Auflösung läuft (um schnell zu sein), um zu berechnen, wo sich der Dartpfeil im Bild mit voller Auflösung befinden würde. Um den ROI zu ermitteln, fasse ich alle so genannten Blobs (Objekte im Bild, die aus Pixeln bestehen) zusammen, die eine bestimmte Größe (wiederum in Pixeln) überschreiten. Die ROI ist einfach die Bounding Box (ein Rechteck) dieser kombinierten Blobs. (Der blaue Rahmen um die Pfeile in der Registrierkarte "Dart"). Ich setze diesen Wert normalerweise recht niedrig an, niedriger als die `Dart Size: Min`. Beachten Sie, dass sich die Anzahl der Pixel hier auf die Bewegungsauflösung bezieht, die 4 Mal kleiner ist als die Erkennungsauflösung.
 
 {{< /tab >}}
 {{< tab "Hough Line Detection" >}}
 
-# Hough Line Detection
+# Linien Erkennung / Barrel Erkennung
 
-Lastly, there is the `Hough Line Detection`.
-This sub-section holds all the values around the algorithm that fits the line into the dart barrel.
-The `Threshold` is quite important and I have not really figured out how to scale it properly with the chosen resolution.
-I typically use values in the `50`s for my setups (running at `800x600` and `1280x720`).
-If you set this value higher, the algorithm will find fewer lines because only lines with a certain number of votes are considered.
-The threshold defines how many votes a line needs.
-The `Min Line Length` and `Max Line Gap` should be quite self-explanatory.
-Again, they refer to values in pixels.
-So, how long a line at least has to be, to be considered, as well as how far apart two lines are allowed to be, to be combined into one single, long line.
+Schließlich gibt es noch die `Hough Line Detection`.
+Dieser Unterabschnitt enthält alle Werte rund um den Algorithmus, der die Linie in das Barrel einpasst.
+Der `Treshold(Schwellenwert)` ist ziemlich wichtig, derzeit wird noch daran gearbeitet um diesen passend zur Auflösung zu skalieren.
+Ich verwende in der Regel Werte im 50er-Bereich für meine Setups (bei 800x600 und 1280x720).
+Wenn Sie diesen Wert höher einstellen, findet der Algorithmus weniger Linien, da nur Linien mit einer bestimmten Anzahl von Stimmen berücksichtigt werden.
+Der `Schwellenwert(Treshold)` legt fest, wie viele Stimmen eine Zeile benötigt.
+Die Werte `Min Line Length(minimale Linienlänge)` und `Max Line Gap(maximaler Lienienabstand)` sollten eigentlich selbsterklärend sein.
+Auch hier bezieht sich der Wert auf Pixel. 
+Es ist also zu berücksichtigen, wie lang eine Linei mindestens sein muss und wie weit zwei Linien voneinander entfernt sein dürfen, damit sie zu einer einzigen langen Linie zusammengefasst werden können.
 
 {{< /tab >}}
 {{< /tabs >}}

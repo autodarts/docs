@@ -1,12 +1,9 @@
 ---
 draft: true
-language: "English"
 author: "Steve_Mutter"
-lang: "en"
+lang: "de"
 ---
 
-Before you can start with autodarts, there are a few things that you need to acquire and prepare. In these guidelines, we will help guide you through some decisions on questions such as which cameras to choose or which OS is best for you. Just follow the guidelines, and you will be well-prepared to build your own autodarts system by yourself.
+Bevor du mit Autodarts beginnen kannst, müssen einige Dinge vorbereitet werden. In diesem Leitfaden werden wir dir bei einigen Entscheidungen helfen, z.B. welche Kameras du wählen solltest oder welches Betriebssystem am besten geeignet ist. Befolge einfach den Leitfaden, und du wirst gut vorbereitet sein, um dein eigenes Autodarts-System selbst bauen zu können.
 
-[comment]: < > (spelling + wording)
-
-## Please read the full documentation and guidelines carefully before getting started.
+## Bitte lies die vollständige Dokumentation und die Richtlinien sorgfältig durch, bevor du beginnst.

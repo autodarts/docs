@@ -2,10 +2,10 @@
 title: "3D Printing"
 draft: true
 language: "English"
-author: "TmO"
+author: "Lars"
 lang: "en"
+weight: 999
 ---
-
 
 ## A guide to 3d print your own camera arms and led ring
 

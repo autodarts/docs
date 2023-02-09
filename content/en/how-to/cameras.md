@@ -7,11 +7,10 @@ weight: "2"
 lang: "en"
 ---
 
-
 [comment]: <> (Fact Check)
 
 {{< tabs "Install Tab" >}}
-{{< tab "correct mount" >}}
+{{< tab "Correct mount" >}}
 ![How to mount cameras](/camera-mount/images/camera_mount_final.png)
 
 ![How to mount cameras](/camera-mount/images/camera_mount_side.png)
@@ -20,13 +19,13 @@ lang: "en"
 For accurate recognition, ensure that the camera fully captures the dart from all angles
 {{< /hint >}}
 
-
-![Cameramount](/camera-mount/images/dartboard_arrow_ex_1.png) 
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_1.png)
 ![Cameramount](/camera-mount/images/dartboard_arrow_ex_2.png)
 ![Cameramount](/camera-mount/images/dartboard_arrow_ex_3.png)
 {{< /tab >}}
 
-{{< tab "examples" >}}
+{{< tab "Examples" >}}
+
 ## Some pretty examples from the Community
 
 [comment]: <> (Ask for Permission to use the Images from @Icke and @Oliver Beyer via Discord DM / No Response yet)

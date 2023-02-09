@@ -46,7 +46,7 @@ spec:
     - host: docs.autodarts.io
       http:
         paths:
-          - path: /ms
+          - path: /
             pathType: Prefix
             backend:
               service:

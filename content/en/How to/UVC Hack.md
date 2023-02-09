@@ -30,6 +30,25 @@ So we could try to fix it in software like OpenCV or GStreamer. But that is sadl
 So we have to fix this in the Operating System and their driver.
 
 ### Ubuntu/debian like OS-ses
+The notorious UVC hack has now become a little bit simpler. You can now install it in a similar fashion as the Autodarts board client. Make sure that curl is installed. I have tested this on a variety of devices, but you can never know. 
+```
+sudo apt install curl
+```
+
+
+The command tries to install all necessary dependencies and then compiles the UVC driver on your device. It will try to unload the old driver and load the new one, as well as copy the new driver into the kernel so that it is loaded on restart. I have found that it is generally a good idea to have a least one camera connected when doing this. So, try to make sure that you have at least one camera connected.
+
+Let me know how this works for you. Here is the command.
+```
+bash <(curl -sL get.autodarts.io/uvc)
+
+```
+
+Now the UVC Hack should work properly and you are ready to go.
+
+
+## If the upper Solution isn't working for you try to Download and Install the Hack manually
+
 #### Step 1
 You have to prepare the system to place the correct files, exactly matching your OS.
 

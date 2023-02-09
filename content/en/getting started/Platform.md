@@ -32,4 +32,21 @@ Releases are available at Github:
 
 + Storage: At least 5 GB of free Storage
 
+**Hardware**
+
+| Autodarts Basic* | Autodarts Intermeditate* | Autodarts Professional*
+| --- | --- | --- |
+| CPU: 2x 2,2GHz / 4x 1,5 GHz | CPU: 4x 2,2 GHz | CPU: 4x 2,4 GHz (Intel I3 or Ryzen >2018)
+| RAM: 2GB | RAM: 4GB (>8GB for Windows) | >8GB
+| Storage: 4GB | Storage: >32GB | Storage: >32GB
+| OS: Raspberry Pi OS | OS: Ubuntu / Windows | OS: Ubuntu / Windows
+
+*Autodarts Basic
++ Board Manager only, no Monitor, no Extensions
+
+*Autodarts Intermeditate
++ Board Manager, no Monitor, up to 2 Extensions
+
+*Autodarts Professional
++ Board Manager, Monitor, up to 4 Extensions
 

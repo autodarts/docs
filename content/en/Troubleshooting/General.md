@@ -81,6 +81,7 @@ The config.cfg file is dynamically generated based on your Board Manager setting
 
 > If only one Camera drop frames
 + This could be a hardware issue. Check to make sure that your camera or its cable is not damaged.
++ If you are using Raspberry Pi please ensure you set Motion Scale to `4`
 
 {{< /tab >}}
 
@@ -110,7 +111,7 @@ The config.cfg file is dynamically generated based on your Board Manager setting
 
 {{< tab "Configuration" >}}
 
-## Raspberry Pi users only:
+# 
 
 
 {{< /tab >}}

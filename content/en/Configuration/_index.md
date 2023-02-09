@@ -79,4 +79,18 @@ Again, they refer to values in pixels.
 So, how long a line at least has to be, to be considered, as well as how far apart two lines are allowed to be, to be combined into one single, long line.
 
 {{< /tab >}}
+
+{{< tab "Motion Scale" >}} 
+
+# Motion Scale
+
+You can now set the `motion/scale`  config parameter in the Board Manager. The default value for that parameter is `3`. For all of you guys sporting a Raspberry Pi setup, it is worth while setting this to `4` to increase your main FPS (not the camera FPS). The `motion/scale` parameter defines at which resolution the motion detection (dart vs. hand) is running. The motion resolution is simply the main cam resolution divided by that scale parameter.
+
+Warning: If you try to change the `motion/scale` parameter while the board is running, the board will crash. This will be fixed in the next board client version. Until then, please do the following. Stop the board, then set the `motion/scale` to a different value, then Restart. You should be able to Stop and Restart with the buttons in the Board Manager.
+
+For the lazy ones among you, you can also change it while the board is running, resulting in the crash. The autodarts service (on Linux) should simply restart after the crash with the new parameter, which has the same effect as doing it as I have described above. It's just a little more crude  . 
+
+This should boost the FPS significantly for low-end devices. In my tests, I could also set it down to `5`, but I had the feeling that `4` runs a bit smoother in the motion detection. `3` and `4` had no difference at all in my tests.
+
+{{< /tab >}}
 {{< /tabs >}}

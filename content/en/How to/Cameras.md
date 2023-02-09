@@ -21,9 +21,9 @@ For accurate recognition, ensure that the camera fully captures the dart from al
 {{< /hint >}}
 
 
-![Cameramount](/camera-mount/images/dartboard_arrow_example_1.png) 
-![Cameramount](/camera-mount/images/dartboard_arrow_example_2.png)
-![Cameramount](/camera-mount/images/dartboard_arrow_example_3.png)
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_1.png) 
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_2.png)
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_3.png)
 {{< /tab >}}
 
 {{< tab "examples" >}}
@@ -31,7 +31,12 @@ For accurate recognition, ensure that the camera fully captures the dart from al
 
 [comment]: <> (Ask for Permission to use the Images from @Icke and @Oliver Beyer via Discord DM / No Response yet)
 [comment]: <> (@Oliver Beyer has consented to the use of his images)
-[comment]: <> (/camera-mount/images/camera_mount_example_1.jpg)
+[comment]: <> (@Icke has consented to the use of his images)
+
+Shoutout to @Icke and @Oliver Beyer for their awesome setups
+
+![@Icke/ #Setup Showcase](/camera-mount/images/camera_mount_example_1.jpg)
+
 ![@Oliver Beyer / #Setup Showcase](/camera-mount/images/camera_mount_example_2.jpg)
 
 ![@Oliver Beyer / #Setup Showcase](/camera-mount/images/camera_mount_example_3.jpg)

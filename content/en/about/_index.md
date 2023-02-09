@@ -22,3 +22,7 @@ Basically all you need is
 > and a mounting solution to position the cameras around the 360 degrees. 
 
 Check out the documentation for more information.
+
+You can also checkout our official Community Server
+
+{{< button href="https://discord.com/servers/autodarts-io-802528604067201055" >}}Autodarts Official Discord{{< /button >}}

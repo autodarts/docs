@@ -1,0 +1,10 @@
+---
+more:
+  - name: Releases
+    ref: https://github.com/autodarts/releases
+    icon: gdoc_download
+    external: true
+  - name: Discord
+    ref: https://discord.gg/autodarts-io-802528604067201055
+    icon: gdoc_discord
+    external: true

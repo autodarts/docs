@@ -1,0 +1,42 @@
+baseURL = "https://docs.autodarts.io"
+title = "Autodarts Documentation"
+theme = "hugo-geekdoc"
+
+pluralizeListTitles = false
+
+# Geekdoc required configuration
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+disablePathToLower = true
+
+# Required if you want to render robots.txt template
+enableRobotsTXT = true
+
+
+defaultContentLanguage = "en"
+
+[languages.en]
+languageName = "English"
+contentDir = "content/en"
+weight = 10
+
+#[languages.de]
+#languageName = "Deutsch"
+#contentDir = "content/de"
+#weight = 20
+
+
+[params]
+  geekdocLogo = "logo.svg"
+
+# Needed for mermaid shortcodes
+[markup]
+  [markup.goldmark.renderer]
+    # Needed for mermaid shortcode
+    unsafe = true
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 9
+
+[taxonomies]
+   tag = "tags"

@@ -3,7 +3,7 @@ title: "Installation"
 draft: true
 language: "English"
 author: "Steve_Mutter"
-weight: "2"
+weight: "3"
 lang: "en"
 ---
 

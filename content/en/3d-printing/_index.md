@@ -1,6 +1,5 @@
 ---
 title: "3D Printing"
-draft: true
 language: "English"
 author: "Lars"
 lang: "en"

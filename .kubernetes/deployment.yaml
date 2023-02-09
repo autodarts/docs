@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: docs
+spec:
+  selector:
+    matchLabels:
+      app: docs
+  replicas: 3
+  template:
+    metadata:
+      labels:
+        app: docs
+    spec:
+      containers:
+        - name: docs
+          image: ghcr.io/autodarts/docs
+          ports:
+            - containerPort: 8080
+          imagePullPolicy: Always
+      imagePullSecrets:
+        - name: github-autodarts
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: docs
+spec:
+  selector:
+    app: docs
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: docs
+  annotations:
+    kubernetes.io/ingress.class: traefik
+    kubernetes.io/tls-acme: "true"
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+spec:
+  rules:
+    - host: docs.autodarts.io
+      http:
+        paths:
+          - path: /ms
+            pathType: Prefix
+            backend:
+              service:
+                name: docs
+                port:
+                  number: 80
+  tls:
+    - hosts:
+        - docs.autodarts.io
+      secretName: autodarts-docs-tls

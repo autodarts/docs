@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://docs.autodarts.io"
 title = "Autodarts Documentation"
 theme = "hugo-geekdoc"
 
@@ -20,11 +20,10 @@ languageName = "English"
 contentDir = "content/en"
 weight = 10
 
-[languages.de]
-languageName = "German"
-contentDir = "content/de"
-weight = 20
-
+#[languages.de]
+#languageName = "Deutsch"
+#contentDir = "content/de"
+#weight = 20
 
 
 [params]

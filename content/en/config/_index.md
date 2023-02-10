@@ -1,12 +1,9 @@
 ---
-language: "English"
+title: Config
 author: "TmO"
 lang: "en"
 weight: 2
 ---
-
-[comment]: <> (Maybe using this kind of switchable Table to keep things organized?)
-[comment]: < > (spelling + wording)
 
 ## In this section you will learn how to Configure the Parts of the System
 

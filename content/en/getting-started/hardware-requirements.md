@@ -1,9 +1,8 @@
 ---
-title: "Hardware Requirements"
-language: "English"
-author: "Steve_Mutter"
+title: Hardware Requirements
+author: Steve_Mutter
+lang: en
 weight: 0
-lang: "en"
 ---
 
 The software is designed to run on most hardware, and should work on any system with equivalent or better specifications.

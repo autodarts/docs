@@ -1,7 +1,6 @@
 ---
-language: "English"
-author: "Steve_Mutter, TmO"
-lang: "en"
+author: Steve_Mutter, TmO
+lang: en
 weight: 0
 ---
 

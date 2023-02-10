@@ -1,7 +1,7 @@
 ---
-language: "English"
-author: "Steve_Mutter"
-lang: "en"
+title: Troubleshooting
+author: Steve_Mutter
+lang: en
 weight: 999
 ---
 

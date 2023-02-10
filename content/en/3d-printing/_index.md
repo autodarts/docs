@@ -1,8 +1,7 @@
 ---
-title: "3D Printing"
-language: "English"
-author: "Lars"
-lang: "en"
+title: 3D Printing
+author: Lars
+lang: en
 weight: 999
 ---
 

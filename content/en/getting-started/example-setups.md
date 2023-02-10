@@ -1,9 +1,8 @@
 ---
-title: "Example Setups"
-language: "English"
-author: "Steve_Mutter"
+title: Example Setups
+author: Steve_Mutter
+lang: en
 weight: 999
-lang: "en"
 ---
 
 [comment]: <> (Fact Check)

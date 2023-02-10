@@ -1,9 +1,8 @@
 ---
-title: "Camera Positioning"
-language: "English"
-author: "Steve_Mutter"
+title: Camera Positioning
+author: Steve_Mutter
+lang: en
 weight: 10
-lang: "en"
 ---
 
 {{< tabs "Install Tab" >}}

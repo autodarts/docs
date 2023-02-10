@@ -1,7 +1,7 @@
 ---
 title: Config
-author: "TmO"
-lang: "en"
+author: TmO
+lang: en
 weight: 2
 ---
 

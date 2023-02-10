@@ -1,9 +1,8 @@
 ---
-title: "Installation"
-language: "English"
-author: "Steve_Mutter"
+title: Installation
+author: Steve_Mutter
+lang: en
 weight: 1
-lang: "en"
 ---
 
 {{< tabs "Install Tab" >}}

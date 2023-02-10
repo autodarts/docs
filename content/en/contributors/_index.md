@@ -1,7 +1,7 @@
 ---
 title: Contributors
-author: "TmO"
-lang: "en"
+author: TmO
+lang: en
 weight: 999
 ---
 

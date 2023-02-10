@@ -12,7 +12,7 @@ lang: "en"
 
 ![How to mount cameras](/camera-mount/images/camera_mount_side.png)
 
-{{< hint type=hint icon=gdoc_error_outline >}}
+{{<hint type=info icon=gdoc_info_outline >}}
 For accurate recognition, ensure that the camera fully captures the dart from all angles
 {{< /hint >}}
 

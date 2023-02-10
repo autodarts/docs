@@ -14,7 +14,7 @@ weight: 999
 
 ## Rapid Connect / Disconnect after first Config
 
-{{< hint type=note icon=gdoc_error_outline >}}
+{{<hint type=note icon=gdoc_info_outline >}}
 If your connection is repeatedly being disrupted and then reconnecting, and you are still able to access the configuration page, make sure that you are using a stable 2.4GHz Wi-Fi network connection. Using a 5GHz network may cause issues.
 {{< /hint >}}
 
@@ -26,7 +26,7 @@ You can do this by open the Configfile with this command:
 sudo nano ~/.autodarts/config.cfg
 ```
 
-{{< hint type=note icon=gdoc_error_outline >}}
+{{<hint type=note icon=gdoc_info_outline >}}
 The .autodarts folder is a hidden folder, so if you are trying to access it through your desktop environment, make sure that you have enabled the option to view hidden folders
 {{< /hint >}}
 
@@ -53,7 +53,7 @@ height          = 600
 fps             = 30
 ```
 
-{{< hint type=note icon=gdoc_error_outline >}}
+{{<hint type=note icon=gdoc_info_outline >}}
 The config.cfg file is dynamically generated based on your Board Manager settings, and its appearance will change if you make any modifications. The aforementioned values are a suitable starting point for initial setup, and should not be altered unless you encounter the error described above.
 {{< /hint >}}
 

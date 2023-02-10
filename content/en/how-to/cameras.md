@@ -7,8 +7,6 @@ weight: "2"
 lang: "en"
 ---
 
-[comment]: <> (Fact Check)
-
 {{< tabs "Install Tab" >}}
 {{< tab "Correct mount" >}}
 ![How to mount cameras](/camera-mount/images/camera_mount_final.png)
@@ -35,8 +33,6 @@ For accurate recognition, ensure that the camera fully captures the dart from al
 Shoutout to @Icke and @Oliver Beyer for their awesome setups
 
 ![@Icke/ #Setup Showcase](/camera-mount/images/camera_mount_example_1.jpg)
-
 ![@Oliver Beyer / #Setup Showcase](/camera-mount/images/camera_mount_example_2.jpg)
-
 ![@Oliver Beyer / #Setup Showcase](/camera-mount/images/camera_mount_example_3.jpg)
 {{< /tab >}}

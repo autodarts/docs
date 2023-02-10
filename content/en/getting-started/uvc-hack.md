@@ -1,9 +1,8 @@
 ---
 title: "UVC Hack"
-draft: true
 language: "English"
 author: "TmO"
-weight: "6"
+weight: 10
 lang: "en"
 ---
 

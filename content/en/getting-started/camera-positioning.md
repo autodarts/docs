@@ -1,9 +1,8 @@
 ---
-title: "Cameras"
-draft: true
+title: "Camera Positioning"
 language: "English"
 author: "Steve_Mutter"
-weight: "2"
+weight: 10
 lang: "en"
 ---
 

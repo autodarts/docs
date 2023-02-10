@@ -1,5 +1,5 @@
 ---
-title: "Hardware requirements"
+title: "Hardware Requirements"
 language: "English"
 author: "Steve_Mutter"
 weight: 0

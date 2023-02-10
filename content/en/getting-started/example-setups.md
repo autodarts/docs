@@ -1,5 +1,5 @@
 ---
-title: "Example setups"
+title: "Example Setups"
 language: "English"
 author: "Steve_Mutter"
 weight: 999

@@ -1,9 +1,8 @@
 ---
-title: "Suggestion"
-draft: true
+title: "Example setups"
 language: "English"
 author: "Steve_Mutter"
-weight: "3"
+weight: 999
 lang: "en"
 ---
 

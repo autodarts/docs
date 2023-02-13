@@ -5,104 +5,156 @@ lang: en
 weight: 50
 ---
 
-## A guide to 3d print your own camera arms and led ring
+Autodarts provides 3D models for the [Winmau Plasma Light](https://winmau.com/plasma-dartboard-light-4300?__cf_chl_tk=PGtC255Z1irSFZJjHqPuQns3DkOSfGvVEftt4Sr9VUo-1676315447-0-gaNycGzNCns).
+The Winmau Plasma Light has the advantage that its three foots are exactly 120 degrees apart.
+We can use the original holes to mount a camera arm to the Winmau Plasma Light.
 
-The arms are designed for use with camera modules that use a 32x32mm layout.
-The dimensions of the modules are 32x32mm and the distance of the bores is 28x28mm.
+Autodarts also provides 3D models to print an entire LED ring yourself.
 
-![alt text](/3d-printing/images/32x32.jpg_.webp)
+## Camera module sizes
 
-However, there is a version version that can be used with webcams using a standard camera thread.
-There also is the possibility to design your own mount for my modular system, which is showcased later in this post.
+Camera modules come in differnet formats.
+The most common formats are 38x38mm (with holes at 34x34mm) and 32x32mm (with holes at 28x28mm).
+Sometimes camera modules feature both formats and you can clip off the outer rims to make a 32x32mm module from the 38x38mm original.
 
-The feet are designed in a way, that they will fit the same bores you drilled for the Winmau Plasma Ring feet.
+Autodarts provides whole arms for 32x32mm modules (or 38x38mm modules with removable rims).
+Autodarts also provides modular arms that can be connected to different heads.
+In case your camera module does not have removable rims, there is a modular head for 38x38mm modules.
 
-For use with Winmau Plasma Ring you have the following options:
+There is also an option to use regular webcams if they feature a standard camera mount thread in their base.
 
-**Option 1**
+![Camera module measurements](/3d-printing/images/camera_module_measures.jpg)
+
+## Winmau Plasma Light setup
+
+If you have a Winmau Plamsa Light setup at home, you can simply print three camera arms.
+Alternatively, you can also print new feet for the Winmau Plasma Light.
+A finished Winmau Plasma Light setup may look like this.
 
 ![alt text](/3d-printing/images/plasma_assembly_git.png)
 
-You want to use it in combination with my arms and feet.
-You then need to print the following files:
+### Camera Arms
 
-- [3x plasma_arm_foot.stl](stl/plasma_arm_foot.stl)
-- [3x plasma_foot_webcam.stl](stl/plasma_foot_webcam.stl)
-- [3x plasma_lid.stl](stl/plasma_lid.stl)
-- [3x plasma_foot_lid.stl](stl/plasma_foot_lid.stl)
+Which camera arms you need depends on the type of camera that you want to mount.
+There are multiple options.
+
+#### 32x32mm modules with 28x28mm holes
+
+This is the original design of the Autodarts arms.
+It is only compatible with 32x32mm modules.
 
 ![alt text](/3d-printing/images/plasma_arm_assembly_git.png)
 
-The lid is always optional but highly recommended.
-It does not only serve aesthetic purposes but also is meant as a safeguard for the camera modules!!!
+Downloads:
 
-**Option 2**
+- [plasma_arm_32x32.stl](/3d-printing/stp/plasma_arm_32x32.stl)
+- [plasma_arm_32x32_lid.stl](/3d-printing/stp/plasma_arm_32x32_lid.stl)
+
+#### Standard webcams
+
+For standard webcams with a camera mount thread, you can use the following arms.
 
 ![alt text](/3d-printing/images/plasma_arm_assembly_webcam_git.png)
 
-For use with a webcam with a standard camera mount thread, you need to replace the arm and lid file with
+Downloads:
 
-- [3x plasma_arm_foot_webcam.stl](stl/plasma_arm_foot_webcam.stl)
-- [3x plasma_lid_webcam.stl](stl/plasma_lid_webcam.stl)
+- [plasma_arm_webcam.stl](/3d-printing/stp/plasma_arm_webcam.stl)
+- [plasma_arm_webcam_lid.stl](/3d-printing/stp/plasma_arm_webcam_lid.stl)
 
-### Bill of Material Autodarts:
+#### Modular arm
 
-- 3x camera module (max. dimensions 32x32mm with bores at 28x28mm)
-- 1x Winmau Plasma Ring
-- 6x DIN 4762 M4x20 (mounting arm and feet to the ring)
-- 12x DIN 9021 M4
-- 12x DIN 4032 M4
-- 12x DIN 4762 M3x8 (mounting the lids onto the arms and the feet)
-- 12x DIN 4762 M2x10 (mounting camera modules to the arms)
-- 3x DIN 7997 5x40 Torx (mounting the feet to the wall)
+To make the design a little bit more flexible, there is also a modular version of the arm that does not have a fixed head.
 
-I also designed an alternative for the Winmau Plasma ring, which is completely printable.
-The system is completely compatible with the arms for the conventional ring.
-The foot is slightly different, so you have to make sure to print the correct file.
+![alt text](/3d-printing/images/plasma_arm_assembly_modular_git.png)
+
+Downloads:
+
+- [plasma_arm_modular.stl](/3d-printing/stp/plasma_arm_modular.stl)
+- [plasma_arm_modular_lid.stl](/3d-printing/stp/plasma_arm_modular_lid.stl)
+
+### Modular heads
+
+#### 38x38mm modules with 34x34mm holes
+
+For these kinds of modules, you can use the modular arm and the following head.
+
+![alt text](/3d-printing/images/plasma_arm_assembly_modular_git_2.png)
+
+Downloads:
+
+- [modular_head_38x38.stl](/3d-printing/stp/modular_head_38x38.stl)
+- [modular_head_38x38_lid.stl](/3d-printing/stp/modular_head_38x38_lid.stl)
+
+#### Moertek MC920
+
+If you have purchased the Moertek MC920 webcams, you can disassemble them and house their modules in this modular head.
+
+Downloads:
+
+- [modular_head_moertek-mc920.stl](/3d-printing/stp/modular_head_moertek-mc920.stl)
+- [modular_head_moertek-mc920_lid.stl](/3d-printing/stp/modular_head_moertek-mc920_lid.stl)
+
+### Feet
+
+For the Winmau Plasma Light, there are also alternative feet that you can 3D-print.
+The feet feature channels for the cables of the camera modules.
+It makes for a neater setup.
+
+Downloads:
+
+- [plasma_foot.stl](/3d-printing/stp/plasma_foot.stl)
+- [plasma_foot_lid.stl](/3d-printing/stp/plasma_foot_lid.stl)
+
+### Complete bill of material
+
+You will have to purchase the following hardware:
+
+- 1x Winmau Plasma Light
+- 3x compatible camera modules
+
+You will need to print the following models:
+
+- 3x arms
+- 3x arm lids
+- 3x modular heads (when using modular arm)
+- 3x modular head lids (when using modular arm)
+- 3x feet
+- 3x feet lids
+
+Screws, nuts, and washers:
+
+- 12x DIN 4762 M2x10 screws (mounting camera modules inside the arm or modular head)
+- 6x DIN 4762 M4x20 screws (mounting arm and feet to the ring)
+- 6x DIN 4762 M4x12 screws (mounting head to the modular arm)
+- 12x DIN 9021 M4 washers
+- 12x DIN 4032 M4 nuts
+- 12x DIN 4762 M3x8 screws (mounting the lids)
+- 3x DIN 7997 5x40 screws (mounting the feet to the wall)
+
+## Lars' Autodarts Ring
+
+`@Lars` has also provided a complete 3D LED ring that you can entirely 3D-print.
+The design is completely compatible with all arms mentioned above, so you can combine this ring with any of the arms, including the modular arm.
+The feet for the Winmau Plasma Light from above are **not** compatible with this ring.
+Make sure to print the feet that are linked further down.
+A complete setup may look like this.
 
 ![alt text](/3d-printing/images/print_assembly_git.png)
 
-You will need to print the following files for the ring:
-
-- [6x print_ring_element.stl](stl/print_ring_element.stl)
-- [2x print_ring_mount.stl](stl/print_ring_mount.stl)
-- [1x print_ring_mount_cable.stl](stl/print_ring_mount_cable.stl) or [print_ring_mount_cable_groove.stl](stl/print_ring_mount_cable_groove.stl)
-- [3x print_foot_webcam.stl](stl/print_foot_webcam.stl)
-- [3x plasma_foot_lid.stl](stl/plasma_foot_lid.stl)
-- [3x plasma_arm_foot.stl](stl/plasma_arm_foot.stl) or [plasma_arm_foot_webcam.stl](stl/plasma_arm_foot_webcam.stl)
-- [3x plasma_lid.stl](stl/plasma_lid.stl) or [plasma_lid_webcam.stl](stl/plasma_lid_webcam.stl)
-
 ![alt text](/3d-printing/images/print_arm_assembly_git.png)
 
-In addition, you will need a led stripe that is glued to the inside of the ring.
-You can add an in-line switch if you want to, but it is not necessary.
+### Pieces
 
-- [1x Led Stripe min. 2,2 meter long](https://www.amazon.de/gp/product/B07TJXZNDZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
-- [1x In-Line Switch](https://www.amazon.de/UEETEK-Streifen-Aus-schalter-Stecker-Schalter-Wie-gezeigt/dp/B077HKVYRY/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14UX4NT2N44A4&keywords=inline+an+ausschalter&qid=1641925914&sprefix=inline+an+aus+schalte%2Caps%2)
+In addition to the arms from above, you will need to print the pieces that make up the ring.
 
-I added a new arm design, which is built modular.
-The top of the arm has a universal mount, so anybody can design his own camera mount module for his specific camera module or webcam board.
-I will include the step file of the arm so everyone can measure and built around it.
-The belov shown example is for the arducam style cams and can be found in the directoriy with the other stl files.
+- 3x [ring_foot.stl](/3d-printing/stl/ring/ring_foot.stl)
+- 6x [ring_element.stl](/3d-printing/stl/ring/ring_element.stl)
+- 2x [ring_mount.stl](/3d-printing/stl/ring/ring_mount.stl)
+- 1x [ring_mount_cable.stl](/3d-printing/stl/ring/ring_mount_cable.stl) or [ring_mount_cable_groove.stl](/3d-printing/stl/ring/ring_mount_cable_groove.stl)
 
-![alt text](/3d-printing/images/plasma_arm_assembly_modular_git.png)
-![alt text](/3d-printing/images/plasma_arm_assembly_modular_git_2.png)
+In addition to the 3D-prinable pieces, you will need to purchase:
 
-You will need to print the following files:
+- 1x LED stripe 5m (e.g., [link](https://www.amazon.de/gp/product/B07TJXZNDZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1))
+- 2x in-line switch (e.g., [link](https://www.amazon.de/UEETEK-Streifen-Aus-schalter-Stecker-Schalter-Wie-gezeigt/dp/B077HKVYRY/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14UX4NT2N44A4&keywords=inline+an+ausschalter&qid=1641925914&sprefix=inline+an+aus+schalte%2Caps%2))
 
-- [3x plasma_arm_foot_modular.stl](stl/plasma_arm_foot_modular.stl)
-- [3x plasma_foot_webcam.stl](stl/plasma_foot_webcam.stl) or [print_foot_webcam.stl](stl/print_foot_webcam.stl)
-- [3x plasma_foot_lid.stl](stl/plasma_foot_lid.stl)
-- [3x plasma_lid_modular.stl](stl/plasma_lid_modular.stl)
-- 3x your self designed modular camera mount or...
-- option moertek mc920:
-  - [3x modular_webcam_moertek.stl](stl/modular_webcam_moertek.stl)
-  - [3x modular_webcam_moertek_lid.stl](stl/modular_webcam_moertek_lid.stl)
-  - optional (for better calibration) [3x arm_extender.stl](stl/arm_extender.stl)
-
-### Download files
-
-- [stl files](https://github.com/autodarts/docs/tree/main/static/3d-printing/stl)
-- [step file for modular mount](https://github.com/autodarts/docs/tree/main/static/3d-printing/step)
-
-Happy printing and feel free to support our project in the discord :)
+Screws, nuts, and washers are the same as for the Winmau Plasma Light setup.

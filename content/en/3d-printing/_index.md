@@ -101,7 +101,7 @@ You will need to print the following files:
 
 ### Download files
 
-- [stl files](./stl/)
-- [step file for modular mount](./step/)
+- [stl files](https://github.com/autodarts/docs/tree/main/static/3d-printing/stl)
+- [step file for modular mount](https://github.com/autodarts/docs/tree/main/static/3d-printing/step)
 
 Happy printing and feel free to support our project in the discord :)

@@ -2,7 +2,7 @@
 title: Config
 author: TmO
 lang: en
-weight: 2
+weight: 20
 ---
 
 ## In this section you will learn how to Configure the Parts of the System

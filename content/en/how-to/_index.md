@@ -2,7 +2,7 @@
 title: How To
 author:
 lang: en
-weight: 999
+weight: 2
 draft: true
 ---
 

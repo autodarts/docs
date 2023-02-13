@@ -2,7 +2,7 @@
 title: 3D Printing
 author: Lars
 lang: en
-weight: 999
+weight: 50
 ---
 
 ## A guide to 3d print your own camera arms and led ring

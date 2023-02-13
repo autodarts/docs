@@ -2,7 +2,7 @@
 title: Contributors
 author: TmO
 lang: en
-weight: 999
+weight: 50
 ---
 
 Autodarts wouldn't work without an active community supporting each other.

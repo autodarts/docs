@@ -2,7 +2,7 @@
 title: Tutorials
 author:
 lang: en
-weight: 5
+weight: 3
 draft: true
 ---
 

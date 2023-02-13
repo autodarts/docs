@@ -47,8 +47,8 @@ It is only compatible with 32x32mm modules.
 
 Downloads:
 
-- [plasma_arm_32x32.stl](/3d-printing/stp/plasma_arm_32x32.stl)
-- [plasma_arm_32x32_lid.stl](/3d-printing/stp/plasma_arm_32x32_lid.stl)
+- [plasma_arm_32x32.stl](/3d-printing/stl/plasma_arm_32x32.stl)
+- [plasma_arm_32x32_lid.stl](/3d-printing/stl/plasma_arm_32x32_lid.stl)
 
 #### Standard webcams
 
@@ -58,8 +58,8 @@ For standard webcams with a camera mount thread, you can use the following arms.
 
 Downloads:
 
-- [plasma_arm_webcam.stl](/3d-printing/stp/plasma_arm_webcam.stl)
-- [plasma_arm_webcam_lid.stl](/3d-printing/stp/plasma_arm_webcam_lid.stl)
+- [plasma_arm_webcam.stl](/3d-printing/stl/plasma_arm_webcam.stl)
+- [plasma_arm_webcam_lid.stl](/3d-printing/stl/plasma_arm_webcam_lid.stl)
 
 #### Modular arm
 
@@ -69,10 +69,8 @@ To make the design a little bit more flexible, there is also a modular version o
 
 Downloads:
 
-- [plasma_arm_modular.stl](/3d-printing/stp/plasma_arm_modular.stl)
-- [plasma_arm_modular_lid.stl](/3d-printing/stp/plasma_arm_modular_lid.stl)
-
-### Modular heads
+- [plasma_arm_modular.stl](/3d-printing/stl/plasma_arm_modular.stl)
+- [plasma_arm_modular_lid.stl](/3d-printing/stl/plasma_arm_modular_lid.stl)
 
 #### 38x38mm modules with 34x34mm holes
 
@@ -82,8 +80,8 @@ For these kinds of modules, you can use the modular arm and the following head.
 
 Downloads:
 
-- [modular_head_38x38.stl](/3d-printing/stp/modular_head_38x38.stl)
-- [modular_head_38x38_lid.stl](/3d-printing/stp/modular_head_38x38_lid.stl)
+- [modular_head_38x38.stl](/3d-printing/stl/modular_head_38x38.stl)
+- [modular_head_38x38_lid.stl](/3d-printing/stl/modular_head_38x38_lid.stl)
 
 #### Moertek MC920
 
@@ -91,8 +89,8 @@ If you have purchased the Moertek MC920 webcams, you can disassemble them and ho
 
 Downloads:
 
-- [modular_head_moertek-mc920.stl](/3d-printing/stp/modular_head_moertek-mc920.stl)
-- [modular_head_moertek-mc920_lid.stl](/3d-printing/stp/modular_head_moertek-mc920_lid.stl)
+- [modular_head_moertek-mc920.stl](/3d-printing/stl/modular_head_moertek-mc920.stl)
+- [modular_head_moertek-mc920_lid.stl](/3d-printing/stl/modular_head_moertek-mc920_lid.stl)
 
 ### Feet
 
@@ -102,8 +100,8 @@ It makes for a neater setup.
 
 Downloads:
 
-- [plasma_foot.stl](/3d-printing/stp/plasma_foot.stl)
-- [plasma_foot_lid.stl](/3d-printing/stp/plasma_foot_lid.stl)
+- [plasma_foot.stl](/3d-printing/stl/plasma_foot.stl)
+- [plasma_foot_lid.stl](/3d-printing/stl/plasma_foot_lid.stl)
 
 ### Complete bill of material
 
@@ -158,3 +156,11 @@ In addition to the 3D-prinable pieces, you will need to purchase:
 - 2x in-line switch (e.g., [link](https://www.amazon.de/UEETEK-Streifen-Aus-schalter-Stecker-Schalter-Wie-gezeigt/dp/B077HKVYRY/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14UX4NT2N44A4&keywords=inline+an+ausschalter&qid=1641925914&sprefix=inline+an+aus+schalte%2Caps%2))
 
 Screws, nuts, and washers are the same as for the Winmau Plasma Light setup.
+
+## Contributions
+
+If you want to design your own modular head, you can use the following step file as a basis.
+
+Downloads:
+
+- [modular_head_38x38.stp](/3d-printing/stp/modular_head_38x38.stp)

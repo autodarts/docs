@@ -7,11 +7,12 @@ weight: 50
 
 ## A guide to 3d print your own camera arms and led ring
 
-My arms are designed for use with camera modules that use the same layout like the [arducam](https://www.arducam.com/product/120fps-global-shutter-color-usb-camera-board-1mp-ov9782-uvc-webcam-module-with-low-distortion-m12-lens-without-microphones-for-computer-laptop-android-device-and-raspberry-pi-arducam/) or [this](https://de.aliexpress.com/item/1005003639087817.html?srcSns=sns_Copy&spreadType=socialShare&bizType=ProductDetail&social_params=60139065475&aff_fcid=586c8c83c6df43d5b5f42286c4ff23c3-1644578883184-08842-_vO4Id4&tt=MG&aff_fsk=_vO4Id4&aff_platform=default&sk=_vO4Id4&aff_trace_key=586c8c83c6df43d5b5f42286c4ff23c3-1644578883184-08842-_vO4Id4&shareId=60139065475&businessType=ProductDetail&platform=AE&terminal_id=6af8ab94ca69415fbf623544797fc5d7).
-We do NOT recommend the arducam, though!!!
-The dimensions of the modules are 32x32 mm and the distance of the bores is 28x28 mm.
-They will not work with modules, which exceed these dimensions!!!
-However, I designed a version that can be used with webcams using a standard camera thread.
+The arms are designed for use with camera modules that use a 32x32mm layout.
+The dimensions of the modules are 32x32mm and the distance of the bores is 28x28mm.
+
+![alt text](/3d-printing/images/32x32.jpg_.webp)
+
+However, there is a version version that can be used with webcams using a standard camera thread.
 There also is the possibility to design your own mount for my modular system, which is showcased later in this post.
 
 The feet are designed in a way, that they will fit the same bores you drilled for the Winmau Plasma Ring feet.

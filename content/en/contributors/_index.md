@@ -21,4 +21,4 @@ We want to thank all of those who contributed to the community-driven documentat
 - [@Zn4rK](https://github.com/Zn4rK)
 - [@DisruptiveNL](https://github.com/DisruptiveNL)
 - [@Lee085](https://github.com/Lee085)
-- [@iMODRAGE]
+- @iMODRAGE

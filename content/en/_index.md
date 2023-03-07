@@ -16,6 +16,7 @@ All you need is:
 - Three USB cameras without lens distortion.
 - A computing unit like a Jetson Nano, Raspberry Pi 4, Intel NUC or equivalent.
 - A mounting solution to position the cameras around the board.
+- A tablet or a small laptop to open the Autodarts web page on.
 
 At the moment, it is possible to play the following game modes: X01, Cricket, Bermuda, Shanghai, Gotcha, ATC, ATW, Random Checkout, and Count Up.
 You can play by yourself, with friends, or against a bot, offering something for everyone.

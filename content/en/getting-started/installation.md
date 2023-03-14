@@ -3,6 +3,8 @@ title: Installation
 author: Steve_Mutter
 lang: en
 weight: 1
+aliases:
+  - /install
 ---
 
 {{< tabs "Install Tab" >}}

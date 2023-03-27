@@ -9,6 +9,7 @@ Autodarts wouldn't work without an active community supporting each other.
 We want to thank all of those who contributed to the community-driven documentation 🙏🙏🙏.
 
 - [@NullP0int](https://github.com/NullP0int)
+- @Ben1987 (for the awesome logo)
 - [@SteveMutter](https://github.com/SteveMutter)
 - [@kriminolle](https://github.com/kriminolle)
 - [@joejoefsc](https://github.com/joejoefsc)

@@ -8,7 +8,7 @@ weight: 50
 Autodarts wouldn't work without an active community supporting each other.
 We want to thank all of those who contributed to the community-driven documentation 🙏🙏🙏.
 
-- [@Ben1987] (for the awesome logo)
+- @Ben1987 (for the awesome logo)
 - @CalmWaters
 - [@ddhille](https://github.com/ddhille)
 - [@DisruptiveNL](https://github.com/DisruptiveNL)

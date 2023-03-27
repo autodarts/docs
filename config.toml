@@ -1,5 +1,5 @@
 baseURL = "https://docs.autodarts.io"
-title = "Autodarts Documentation"
+title = "Autodarts"
 theme = "hugo-geekdoc"
 
 pluralizeListTitles = false

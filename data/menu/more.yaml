@@ -8,3 +8,11 @@ more:
     ref: https://discord.gg/autodarts
     icon: gdoc_discord
     external: true
+  - name: Twitch
+    ref: https://www.twitch.tv/autodarts
+    icon: gdoc_twitch  // das icon müssten noch hinzugefügt werden.
+    external: true
+  - name: Play
+    ref: https://autodarts.io
+    icon: gdoc_play  // das icon müssten noch hinzugefügt werden.
+    external: true

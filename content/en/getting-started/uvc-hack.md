@@ -16,3 +16,13 @@ bash <(curl -sL get.autodarts.io/uvc)
 ```
 
 Now the UVC Hack should work properly and you are ready to go.
+
+You can also uninstall the UVC Hack with this command.
+
+```bash
+bash <(curl -sL get.autodarts.io/uvc) --uninstall
+```
+
+{{<hint type=warning icon=gdoc_info_outline >}}
+The UVC Hack will not work on linux machines that have [UEFI Secure Boot](https://wiki.ubuntu.com/UEFI/SecureBoot) enabled.
+{{< /hint >}}

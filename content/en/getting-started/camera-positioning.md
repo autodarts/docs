@@ -34,3 +34,4 @@ Shoutout to @Icke and @Oliver Beyer for their awesome setups
 ![@Oliver Beyer / #Setup Showcase](/camera-mount/images/camera_mount_example_2.jpg)
 ![@Oliver Beyer / #Setup Showcase](/camera-mount/images/camera_mount_example_3.jpg)
 {{< /tab >}}
+{{< /tabs >}}

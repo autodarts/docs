@@ -10,33 +10,20 @@ aliases:
 {{< tabs "Install Tab" >}}
 {{< tab "Linux" >}}
 
-## Linux / Raspberry Pi
+# Linux
 
-You can install Autodarts on a Linux system by using this single command.
-It will automatically download the latest version and install a systemd service to automatically start Autodarts on startup.
+## Requirements
 
-### Requirements
-
-You might have to install `curl` on your machine beforehand.
-You can check if `curl` with this command:
-
-```bash
-curl --version
-```
-
-Output should be:
-
-```bash
-curl 7.81.0 (x86_64-pc-linux-gnu)
-```
-
-If you haven't installed curl yet you can do this by typing following command:
+You will also need `curl`.
+You can install it like this.
 
 ```bash
 sudo apt install curl -y
 ```
 
-### Autodarts
+On linux distributions with different package managers, use the one provided.
+
+## Installation
 
 If you want to install autodarts with automatic start on boot go along with this:
 
@@ -50,12 +37,12 @@ If you do not want the autostart systemd service to be installed, you can use th
 bash <(curl -sL get.autodarts.io) -n
 ```
 
-If you want to install a specific version, e.g., `0.16.0`, then you can append the required version to the command as follows.
+If you want to install a specific version, e.g., `0.20.0`, then you can append the required version to the command as follows.
 This can be helpful if you want to downgrade to an earlier version.
 This also works with the `-n` flag from before.
 
 ```bash
-bash <(curl -sL get.autodarts.io) 0.16.0
+bash <(curl -sL get.autodarts.io) 0.20.0
 ```
 
 You can control the the `autodarts.service` with the `systemctl` command.
@@ -92,11 +79,35 @@ Please be patient.
 
 # macOS
 
-The MacOS version is dynamically linked and does not come with OpenCV included.
-make sure that you install OpenCV 4.7.0 opencv first.
+## Requirements
+
+The macOS version is dynamically linked and does not come with OpenCV included.
+make sure that you install OpenCV 4.8.0 opencv first.
 
 ```bash
 brew install opencv
+```
+
+You will also need `curl`.
+You can install it like this.
+
+```bash
+brew install curl
+```
+
+## Installation
+
+You can then install autodarts with the following command.
+
+```bash
+bash <(curl -sL get.autodarts.io)
+```
+
+If you want to install a specific version, e.g., `0.20.0`, then you can append the required version to the command as follows.
+This can be helpful if you want to downgrade to an earlier version.
+
+```bash
+bash <(curl -sL get.autodarts.io) 0.20.0
 ```
 
 {{< /tab >}}

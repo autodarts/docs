@@ -160,3 +160,4 @@ Then you can shutdown the Raspberry Pi and remove the SD card.
 Usually you have a set up system on a SD card. You have to save the content to an image file and then write it to the USB drive. Start up Raspberry Pi with USB drive It is important that the SD card is removed. It is privileged during the boot process. Booting from a USB drive is only possible if no SD card is inserted. Plug the USB drive with the described image into a free USB port and start the Raspberry Pi. It should then boot from the USB drive. If the drive has an activity LED, it should blink after a few seconds. This is a good sign. Troubleshooting If the Raspberry Pi doesn't seem to be booting, you should at least start it up on a monitor to check the boot process. Problems should only occur if the connected USB devices draw too much power when turned on, or if the drive controller takes too long to come on line. There is a solution for both.
 
 {{< /tab >}}
+{{< /tabs >}}

@@ -11,3 +11,4 @@ Just follow the guidelines, and you will be well-prepared to build your own Auto
 
 {{<hint type=warning icon=gdoc_fire >}}
 Please carefully read the full documentation and guidelines, before getting started.
+{{< /hint >}}

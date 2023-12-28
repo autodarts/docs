@@ -2,7 +2,7 @@
 title: Cameras
 author: Steve_Mutter
 lang: en
-weight: 3
+weight: 2
 ---
 
 Autodarts supports a wide range of webcams. However, it is not recommended to just buy the cheapest cameras available. Based on the experiences of the community, we have already curated a selection of suitable cameras.

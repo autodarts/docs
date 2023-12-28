@@ -2,7 +2,7 @@
 title: Camera Positioning
 author: Steve_Mutter
 lang: en
-weight: 10
+weight: 3
 ---
 
 {{< tabs "Install Tab" >}}

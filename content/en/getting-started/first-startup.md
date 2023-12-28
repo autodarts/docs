@@ -2,7 +2,7 @@
 title: First Startup
 author: Steve_Mutter
 lang: en
-weight: 11
+weight: 5
 ---
 
 If you have followed the installation guide correctly, you should now be able to run Autodarts for the first time.

@@ -2,7 +2,7 @@
 title: UVC Hack
 author: TmO
 lang: en
-weight: 10
+weight: 4
 ---
 
 The notorious UVC hack has now become a little bit simpler. You can now install it in a similar fashion as the Autodarts board client. Make sure that curl is installed (`sudo apt install curl`). I have tested this on a variety of devices, but you can never know.

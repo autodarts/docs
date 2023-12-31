@@ -10,6 +10,8 @@ aliases:
 {{< tabs "Install Tab" >}}
 {{< tab "Linux" >}}
 
+Autodarts is designed to work on every Ubuntu/Debian-based system. While it is primarily tested on Ubuntu 20.04 and 22.04, we recommend using one of these versions for optimal performance. Additionally, some community members have reported positive experiences with 'Q4OS.' If your system encounters compatibility issues with newer Ubuntu versions, you may consider testing Autodarts on 'Q4OS' as an alternative.
+
 # Linux
 
 ## Requirements

@@ -4,6 +4,9 @@ author: Steve_Mutter
 lang: en
 weight: 999
 ---
+Here are some hardware recommendations tested by our awesome community:
+
+
 
 |                       |                     **Beginner Linux**                     |                                       **Experienced Linux**                                       |            **Experienced Windows/Linux**             |                         **Pro Version**                          |
 | :-------------------: | :--------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: | :--------------------------------------------------: | :--------------------------------------------------------------: |

@@ -11,7 +11,6 @@ weight: 3
 
 ![How to mount cameras](/camera-mount/images/camera_mount_side.png)
 
-![Cameramount](/camera-mount/images/Dartboard_Plasma.jpg)
 
 {{<hint type=info icon=gdoc_info_outline >}}
 For accurate recognition, ensure that the camera fully captures the dart from all angles

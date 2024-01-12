@@ -41,8 +41,7 @@ Here are a few examples from the community that are already being used by our us
 | Picture                                      | Company        | FOV [°] | Distortion  | Overexposure | Settings | Autofocus |
 | ----------- | ---------- | -------------------------------------------- | ---------- | --------------- | ----------- | ------- | ----------- | ------------ | -------- | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------- |
 | ![img](/camera-comp/images/elp_otg.png)      | ELP OTG HD 5mp        | 100     | None        | None         | Manual   | No        |
-| ![img](/camera-comp/images/mortek_mc920.png) | MOERTEK    | 85      | Nearly none | No           | Auto     | Yes       |
-| ![img](/camera-comp/images/HBV.png)   | HBVCAM-W2017-V22    | 110     | Little         | No           | Auto     |No       |                                             |
+| ![img](/camera-comp/images/mortek_mc920.png) | MOERTEK    | 85      | Nearly none | No           | Auto     | Yes       |                                            |
 | ![img](/camera-comp/images/ov9732.png)    | OV9732       | 100      | Little         | None          | Auto     | No       | 
 
 ### Incompatible cameras

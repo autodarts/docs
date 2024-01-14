@@ -3,6 +3,7 @@ title: UVC Hack
 author: TmO
 lang: en
 weight: 4
+draft: true
 ---
 
 The UVC hack eliminates issues with incorrectly requested bandwidth from multiple cameras on the same USB bus. Most cameras always request bandwidth for maximum resolution and FPS. It is sometimes needed to resolve bandwidth issues on the USB bus.

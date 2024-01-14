@@ -67,6 +67,10 @@ journalctl -u autodarts -f
 
 # Windows
 
+First of all you have to download the matching Installation file from Github:
+
+[Download Github](https://github.com/autodarts/releases/releases)
+
 Windows is quite picky when it comes to connecting multiple cameras to the same USB port.
 It is adviced to connect every camera individually to different USB ports.
 It is tested on multiple machines, and this generally seems to work.

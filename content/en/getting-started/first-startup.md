@@ -12,9 +12,11 @@ If you have followed the installation guide correctly, you should now be able to
 - You setup your Cameras and mounted them correctly
 {{< /hint >}}
 
-Start up the computer and determine the machine's IP address. For example: "192.168.178.47." If Autodarts is running, input the IP followed by the port (Autodarts operates on Port 3180).
+Start up the computer and launch your preferred internet browser and access the Board Manager by entering: http://localhost:3180
 
-Next, launch your preferred internet browser and access the Board Manager by entering: http://192.168.178.47:3180
+{{<hint type=note icon=gdoc_info_outline >}}
+If you want to reach the Board Manager from another computer in your Network you have to gather the IP from your Autodarts Machine, the easyiest way is to look up in your Router (for example: http://192.168.178.123:3180)
+{{< /hint >}}
 
 You should now see the Board Manager ready for setup.
 

@@ -21,7 +21,7 @@ For Autodarts, the minimum hardware requirements are as follows.
 
 - CPU: 2x2.0GHz or 4x1.5GHz
 - RAM: 1GB
-- USB: 3 ports for cameras
+- USB: 3 ports for cameras ***(at least 2 seperate USB Busses)***
 - Storage: At least 1GB of free Storage
 
 {{< /hint >}}

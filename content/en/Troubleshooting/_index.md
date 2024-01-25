@@ -117,4 +117,37 @@ The config.cfg file is dynamically generated based on your Board Manager setting
 
 {{< /tab >}}
 
+{{< tab "Only 2 Cameras" >}}
+
+# If only 2 cameras are recognized, check the following:
+
+The issue with connecting numerous USB cameras to your computer is related to bandwidth. Bandwidth measures how much information can be transmitted through a USB cable in a given time unit, and it is finite. For most devices, this is not a problem either because they transmit a small amount of data that utilizes only a fraction of the bandwidth or because their data is not time-sensitive. However, cameras send substantial amounts of time-dependent data, leading to the problem.
+
+The USB bandwidth limitation is not inherent to the USB cable but rather a characteristic of the USB controller. Complicating matters further, a single USB controller usually connects to multiple USB ports. Additionally, connecting a hub to a port does not alter this limitation, as the bandwidth is determined by the controller, not the hub.
+
+You have to understand that, in some cases, the production quality of certain inexpensive cameras may differ significantly. If you are working with very cheap cameras, you may need to test around a bit before getting everything to work.
+
+> There are only 2 cameras recogniced within the Board Manager (Config)
+
+- Please make sure you connected your 3 cameras at least at 2 different USB buses
+
+> If you are using an active USB Hub
+
+- Check what happen if you connect at least one of the cameras to a different USB Port (also different USB Bus) to ensure there is no Hardware issue
+
+> If you are using camera modules with longer cables
+
+- If you have orderd longer cables for your camera modules (like OV9732) please check if they are all working. Some cables are wired differently despite having the same connector. We have also observed that some cables are already defective upon delivery.
+
+> Change Resolution
+
+- Try to decrease your resolution. As you can see from these [statistics](http://docs.autodarts.io/getting-started/cameras/), it's not necessary to play with high resolution. An aspect ratio of 4:3 can also be advantageous.
+
+> Power consumtion 
+
+- In ***some rare cases***, the power consumption of the cameras could also be a problem. Please check that the cameras comply with USB standards, and if you are able, you can also measure the actual power consumption. This point is only for advanced users. Please prioritize safety and do not put yourselves at risk. If you are not absolutely sure, consult an electrical professional for assistance.
+
+
+{{< /tab >}}
+
 {{< /tabs >}}

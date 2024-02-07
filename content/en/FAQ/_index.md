@@ -5,7 +5,7 @@ lang: en
 weight: 60
 aliases:
   - /faq
-draft: true
+draft: false
 ---
 
 {{< tabs "Install Tab" >}}

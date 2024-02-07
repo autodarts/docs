@@ -21,7 +21,7 @@ For Autodarts, the minimum hardware requirements are as follows.
 
 - CPU: 2x2.0GHz or 4x1.5GHz
 - RAM: 1GB
-- USB: 3 ports for cameras ***(at least 2 seperate USB Busses)***
+- USB: 3 ports for cameras ***(at least 2 seperate USB Buses)***
 - Storage: At least 1GB of free Storage
 
 {{< /hint >}}
@@ -30,7 +30,7 @@ For Autodarts, the minimum hardware requirements are as follows.
 
 ## Computing unit
 
-Depending on what your system needs to be able to do, you should pay attention to the following hardware requirements when selecting the ThinClient / Raspberry / Mac:
+Depending on what your system needs to be able to do, you should pay attention to the following hardware requirements when selecting the ThinClient / Raspberry Pi (4/5) / Mac:
 
 | Autodarts Basic\*        | Autodarts Intermeditate\*\* | Autodarts Professional\*\*\*            |
 | ------------------------ | --------------------------- | --------------------------------------- |

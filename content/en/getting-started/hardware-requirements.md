@@ -53,12 +53,6 @@ Please check out the [Example Setups](https://docs.autodarts.io/getting-started/
 
 For cameras, you should consider purchasing OV9732 with a 100° viewing angle. These cameras work great and offer a good price-performance ratio. Other cameras should also work. Before buying, please visit the [Discord](https://discord.com/invite/autodarts) server. PLEASE use the search function before you Post "Is this camera working"!
 
-Known Cameras who don't work:
-
-- [Rollei R-Cam 100](https://tinyurl.com/mwj7uvrd)
-- [Makoty Webcam](https://tinyurl.com/4e5pmtjy)
-- [GuangTouL Webcam](https://tinyurl.com/3dek8m2a)
-
 ## Dartboard illumination
 
 You can buy ready-made solutions like the "Winmau Plasma" or "Target Corona." You can also build your own ring. For this, please check out the 3D Printing [3D Printing section](https://docs.autodarts.io/3d-printing/), where you can find STL files for the Winmau Plasma ring. Additionally, you can find files to construct your own ring.

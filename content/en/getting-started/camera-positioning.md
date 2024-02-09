@@ -29,6 +29,8 @@ For accurate recognition, ensure that the camera fully captures the dart from al
 [comment]: <> (@Oliver Beyer has consented to the use of his images)
 [comment]: <> (@Icke has consented to the use of his images)
 
+For some more pretty setups have a look at the [Setup Showcase](https://discord.com/channels/802528604067201055/1199100078950985788) Channel on our Discord Server
+
 Shoutout to @Icke and @Oliver Beyer for their awesome setups
 
 ![@Icke/ #Setup Showcase](/camera-mount/images/camera_mount_example_1.jpg)

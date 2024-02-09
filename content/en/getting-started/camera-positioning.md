@@ -16,9 +16,9 @@ weight: 3
 For accurate recognition, ensure that the camera fully captures the dart from all angles
 {{< /hint >}}
 
-![Cameramount](/camera-mount/images/dartboard_arrow_ex_1.png)
-![Cameramount](/camera-mount/images/dartboard_arrow_ex_2.png)
-![Cameramount](/camera-mount/images/dartboard_arrow_ex_3.png)
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_1.jpeg)
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_2.jpeg)
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_3.jpeg)
 {{< /tab >}}
 
 {{< tab "Examples" >}}

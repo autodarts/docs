@@ -21,7 +21,7 @@ For Autodarts, the minimum hardware requirements are as follows.
 
 - CPU: 2x2.0GHz or 4x1.5GHz
 - RAM: 1GB
-- USB: 3 ports for cameras
+- USB: 3 ports for cameras ***(at least 2 seperate USB Buses)***
 - Storage: At least 1GB of free Storage
 
 {{< /hint >}}
@@ -30,7 +30,7 @@ For Autodarts, the minimum hardware requirements are as follows.
 
 ## Computing unit
 
-Depending on what your system needs to be able to do, you should pay attention to the following hardware requirements when selecting the ThinClient / Raspberry / Mac:
+Depending on what your system needs to be able to do, you should pay attention to the following hardware requirements when selecting the ThinClient / Raspberry Pi (4/5) / Mac:
 
 | Autodarts Basic\*        | Autodarts Intermeditate\*\* | Autodarts Professional\*\*\*            |
 | ------------------------ | --------------------------- | --------------------------------------- |
@@ -52,12 +52,6 @@ Please check out the [Example Setups](https://docs.autodarts.io/getting-started/
 ## Cameras
 
 For cameras, you should consider purchasing OV9732 with a 100° viewing angle. These cameras work great and offer a good price-performance ratio. Other cameras should also work. Before buying, please visit the [Discord](https://discord.com/invite/autodarts) server. PLEASE use the search function before you Post "Is this camera working"!
-
-Known Cameras who don't work:
-
-- [Rollei R-Cam 100](https://tinyurl.com/mwj7uvrd)
-- [Makoty Webcam](https://tinyurl.com/4e5pmtjy)
-- [GuangTouL Webcam](https://tinyurl.com/3dek8m2a)
 
 ## Dartboard illumination
 

@@ -5,6 +5,11 @@ lang: en
 weight: 20
 ---
 
+{{<hint type=important icon=gdoc_error_outline >}}
+# This information is only relevant for all software versions below version 0.23.0
+## With version 0.23.0, these settings have been removed, as they are no longer needed.
+{{< /hint >}}
+
 ## In this section you will learn how to Configure the Parts of the System
 
 Here, Motion Detection and Dart Detection are explained, so you can better adjust them to your needs.

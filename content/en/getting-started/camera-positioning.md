@@ -16,9 +16,9 @@ weight: 3
 For accurate recognition, ensure that the camera fully captures the dart from all angles
 {{< /hint >}}
 
-![Cameramount](/camera-mount/images/dartboard_arrow_ex_1.png)
-![Cameramount](/camera-mount/images/dartboard_arrow_ex_2.png)
-![Cameramount](/camera-mount/images/dartboard_arrow_ex_3.png)
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_1.jpeg)
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_2.jpeg)
+![Cameramount](/camera-mount/images/dartboard_arrow_ex_3.jpeg)
 {{< /tab >}}
 
 {{< tab "Examples" >}}
@@ -28,6 +28,8 @@ For accurate recognition, ensure that the camera fully captures the dart from al
 [comment]: <> (Ask for Permission to use the Images from @Icke and @Oliver Beyer via Discord DM / No Response yet)
 [comment]: <> (@Oliver Beyer has consented to the use of his images)
 [comment]: <> (@Icke has consented to the use of his images)
+
+For some more pretty setups have a look at the [Setup Showcase](https://discord.com/channels/802528604067201055/1199100078950985788) Channel on our Discord Server
 
 Shoutout to @Icke and @Oliver Beyer for their awesome setups
 

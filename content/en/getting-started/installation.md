@@ -7,6 +7,10 @@ aliases:
   - /install
 ---
 
+{{<hint type=note icon=gdoc_info_outline >}}
+Please note that Autodarts is primarily developed for Linux-based systems. While there are setups available for Windows and macOS, they are currently in alpha release and may contain bugs.
+{{< /hint >}}
+
 {{< tabs "Install Tab" >}}
 {{< tab "Linux" >}}
 

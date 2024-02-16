@@ -5,7 +5,11 @@ lang: en
 weight: 6
 ---
 {{<hint type=info icon=gdoc_info_outline >}}
-Distortion correction is necessary only when your cameras exhibit significant distortion. Distortion means the pictures taken by your cameras are warped in some way.
+Distortion correction is necessary only when your cameras exhibit significant distortion. Distortion means the pictures taken by your cameras are warped in some way. 
+{{< /hint >}}
+
+{{<hint type=important icon=gdoc_error_outline >}}
+For OV9732, Mortek MC 920 or ELP OTG HD 5mp Cameras distortion is **not** needed. 
 {{< /hint >}}
 
 The calibration process is performed directly through the Board Manager within the Distortion tab.

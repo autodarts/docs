@@ -2,7 +2,7 @@
 title: Distortion
 author: Steve_Mutter
 lang: en
-weight: 5
+weight: 6
 ---
 
 Distortion correction is necessary only when your cameras exhibit significant distortion. The calibration process is performed directly through the Board Manager within the Distortion tab.

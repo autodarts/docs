@@ -6,14 +6,13 @@ weight: 50
 ---
 
 Autodarts provides 3D models for the [Winmau Plasma Light](https://winmau.com/plasma-dartboard-light-4300?__cf_chl_tk=PGtC255Z1irSFZJjHqPuQns3DkOSfGvVEftt4Sr9VUo-1676315447-0-gaNycGzNCns).
-The Winmau Plasma Light has the advantage that its three foots are exactly 120 degrees apart.
-We can use the original holes to mount a camera arm to the Winmau Plasma Light.
+The Winmau Plasma light has the advantage that the three wall mounts are exactly 120 degrees apart.
+We can use the original holes to mount a camera arm to the Winmau Plasma light.
 
-Autodarts also provides 3D models to print an entire LED ring yourself.
+Autodarts does provide 3D models for an entire LED ring to print.
 
 {{<hint type=note icon=gdoc_info_outline >}}
-Please also check out the 3D print files from @Robbel90. He does some awesome work designing and printing parts for the Autodarts system.
-[Robbel90 @Cults](https://cults3d.com/de/modell-3d/gadget/steeldart-score-system-wie-autodarts)
+You also can search for printable files on Cults3d and Thingiverse.
 {{< /hint >}}
 
 

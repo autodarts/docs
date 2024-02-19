@@ -21,9 +21,8 @@ Wait until the Autodarts Vision Package is available. (Please note that a PC is 
 
 Option No. 2:
 You order the hardware yourself and print the camera and LED ring mounts yourself.
-You can also have the mounts printed if you don't have a 3D printer. There is a free set of files at:
-http://docs.autodarts.io/3d-printing/
-Or you support @Robbel90 | Robert and purchase his files that he has created: [⁠Cults 3D](https://cults3d.com/de/modell-3d/gadget/steeldart-score-system-wie-autodarts) 
+You can also have the mounts printed if you don't have a 3D printer. There is a free set of files in the 
+[⁠3D-printing](http://docs.autodarts.io/3d-printing/) area. For more Designs you could also Search [⁠3DCults](https://cults3d.com/) or [⁠Thingiverse](https://www.thingiverse.com/).
 
 Option No. 3:
 You order the hardware yourself and build mounts for cameras and LED ring yourself.

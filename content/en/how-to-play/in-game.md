@@ -44,7 +44,7 @@ With this Option the Keyboard Input will be displayed
 ## Settings
 
 ![Symbol Setting](/how-to-play/images/symbol_settings.png)
-Here you can avtivate / deactivate the following settings:
+Here you can activate / deactivate the following settings:
 - Show checkout guide
 - Count each throw
 

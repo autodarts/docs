@@ -56,7 +56,3 @@ These Values are for better Debugging if there are problems with the detection o
 
 ## Counted Darts
 Values of detected Darts
-
-<!-- {{<hint type=tip icon=gdoc_info_outline >}}
-If you play locally with your friends and they want to keep track of their statistics, they can create their own Autodarts Account and join the lobby with their mobile phones by scanning the QR code
-{{< /hint >}} -->

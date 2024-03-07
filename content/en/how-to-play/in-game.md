@@ -47,6 +47,7 @@ With this Option the Keyboard Input will be displayed
 Here you can activate / deactivate the following settings:
 - Show checkout guide
 - Count each throw
+- Show chalkboard
 
 
 ## History

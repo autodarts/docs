@@ -96,11 +96,6 @@ Then follow the instructions at:
 [⁠First Startup](http://docs.autodarts.io/getting-started/first-startup/)
 
 {{< /expand >}}
-{{< expand "I don't see the 'Next' button to start the next leg." "..." >}}
-
-This is a known bug related to the 'Keyboard' view. Please switch to another view, such as Liveboard or Virtualboard.
-
-{{< /expand >}}
 {{< expand "Do I need an active internet connection to play Autodarts?" "..." >}}
 
 Yes, since darts is a competitive game and we've made it possible to play against players from all over the world, you need an active internet connection. Even if you want to play locally against your friends, it's necessary because of the structure Autodarts is built on.
@@ -113,47 +108,9 @@ Yes, you can play locally with your friends or against bots; just add them durin
 {{< /expand >}}
 
 <!-- {{< /tab >}} -->
-
 <!-- {{< tab "Linux" >}} -->
 
 # Linux
-
-{{< expand "Error: bash: /dev/fd/63: No such file or directory." "..." >}}
-
-## Solution 1:
-If you encounter an error while attempting to install Autodarts using the one-line command:
-```bash
-bash <(curl -sL get.autodarts.io) -n
-```
-
-please try installing Autodarts without the "-n" flag by using the following command:
-```bash
-bash <(curl -sL get.autodarts.io)
-```
- After successful installation, enable autostart with the following command:
-```bash
-sudo systemctl enable autodarts
-```
-
-## Solution 2:
-Alternatively, you can use "wget" to install Autodarts:
-```bash
-wget -c https://get.autodarts.io/ -O install.sh
-```
-Followed by:
-```bash
-bash install.sh
-```
-
-{{<hint type=info icon=gdoc_info_outline >}}
-In both cases, "curl" has to be installed:
-```bash
-sudo apt install curl -y
-```
-{{< /hint >}}
-
-{{< /expand >}}
-
 
 <!-- {{< /tab >}} -->
 <!-- {{< tab "Windows" >}} -->

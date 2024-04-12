@@ -3,7 +3,7 @@ title: Segment Training
 author: Steve_Mutter
 lang: en
 weight: 10
-draft: false
+draft: true
 ---
 
 # Basic Game Rules

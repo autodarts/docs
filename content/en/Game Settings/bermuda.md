@@ -3,7 +3,7 @@ title: Bermuda
 author: Steve_Mutter
 lang: en
 weight: 4
-draft: false
+draft: true
 ---
 
 # Basic Game Rules

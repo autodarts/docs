@@ -3,7 +3,7 @@ title: Shanghai
 author: Steve_Mutter
 lang: en
 weight: 5
-draft: false
+draft: true
 ---
 
 # Basic Game Rules

@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: docs
-          image: ghcr.io/autodarts/docs
+          image: ghcr.io/autodarts/docs:8279328931
           ports:
             - containerPort: 8080
               name: http

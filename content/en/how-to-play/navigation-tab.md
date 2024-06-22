@@ -18,14 +18,17 @@ In the live view, you can observe all three cameras in real-time.
 
 ## Motion
 In the motion view, you have a virtual representation of your board, with each motion highlighted in red. This view is crucial for debugging purposes.
-![motion](/how-to-play/images/motion.png)
+
+[comment]: < ![motion](/how-to-play/images/motion.png) >
 
 ## Dart
 The Dart Tab displays a virtual board along with your darts, with hit fields also marked.
-![dart](/how-to-play/images/dart.png)
+
+[comment]: < (![dart](/how-to-play/images/dart.png) >
 
 ## Config
 The Config Tab is for configuration purposes. Here, you can input your Board ID and API Key. Additionally, you can configure your cameras, including resolution, frames per second, camera rotation, and the duration after which your board stops if there's no activity.
+
 ![config](/how-to-play/images/config.png)
 
 ## Distortion

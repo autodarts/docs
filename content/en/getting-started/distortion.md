@@ -5,7 +5,7 @@ lang: en
 weight: 6
 ---
 {{<hint type=info icon=gdoc_info_outline >}}
-Distortion correction is necessary only when your cameras exhibit significant distortion. Distortion means the pictures taken by your cameras are warped in some way. 
+Distortion correction is necessary only when your cameras exhibit significant distortion. Distortion means the pictures taken by your cameras are warped in some way. Please note that starting from version 0.24.0, the algorithm takes care of possible distortion in your camera lens. That means, with software versions above 0.24.0, you do not have to manually adjust distortion if needed.
 {{< /hint >}}
 
 {{<hint type=important icon=gdoc_error_outline >}}

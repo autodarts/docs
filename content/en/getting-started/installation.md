@@ -32,13 +32,13 @@ On linux distributions with different package managers, use the one provided.
 If you want to install autodarts with automatic start on boot go along with this:
 
 ```bash
-bash <(curl -sL get.autodarts.io)
+bash <(curl -s get.autodarts.io)
 ```
 
 If you do not want the autostart systemd service to be installed, you can use the `-n` flag as follows.
 
 ```bash
-bash <(curl -sL get.autodarts.io) -n
+bash <(curl -s get.autodarts.io) -n
 ```
 
 If you want to install a specific version, e.g., `0.20.0`, then you can append the required version to the command as follows.
@@ -46,7 +46,7 @@ This can be helpful if you want to downgrade to an earlier version.
 This also works with the `-n` flag from before.
 
 ```bash
-bash <(curl -sL get.autodarts.io) 0.20.0
+bash <(curl -s get.autodarts.io) 0.20.0
 ```
 
 You can control the the `autodarts.service` with the `systemctl` command.
@@ -68,7 +68,6 @@ journalctl -u autodarts -f
 
 # UVC Hack
 
-
 In some cases you need the UVC Hack in combination with Linux based Distros
 
 The UVC hack eliminates issues with incorrectly requested bandwidth from multiple cameras on the same USB bus. Most cameras always request bandwidth for maximum resolution and FPS. It is sometimes needed to resolve bandwidth issues on the USB bus.
@@ -80,7 +79,7 @@ The command tries to install all necessary dependencies and then compiles the UV
 Let me know how this works for you. Here is the command.
 
 ```bash
-bash <(curl -sL get.autodarts.io/uvc)
+bash <(curl -s get.autodarts.io/uvc)
 ```
 
 Now the UVC Hack should work properly and you are ready to go.
@@ -88,7 +87,7 @@ Now the UVC Hack should work properly and you are ready to go.
 You can also uninstall the UVC Hack with this command.
 
 ```bash
-bash <(curl -sL get.autodarts.io/uvc) --uninstall
+bash <(curl -s get.autodarts.io/uvc) --uninstall
 ```
 
 {{<hint type=warning icon=gdoc_info_outline >}}
@@ -136,14 +135,14 @@ brew install curl
 You can then install autodarts with the following command.
 
 ```bash
-bash <(curl -sL get.autodarts.io)
+bash <(curl -s get.autodarts.io)
 ```
 
 If you want to install a specific version, e.g., `0.20.0`, then you can append the required version to the command as follows.
 This can be helpful if you want to downgrade to an earlier version.
 
 ```bash
-bash <(curl -sL get.autodarts.io) 0.20.0
+bash <(curl -s get.autodarts.io) 0.20.0
 ```
 
 {{< /tab >}}

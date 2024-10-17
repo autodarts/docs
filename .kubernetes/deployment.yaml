@@ -45,7 +45,7 @@ metadata:
     cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
   rules:
-    - host: docs.autodarts.io
+    - host: autodarts.diy
       http:
         paths:
           - path: /
@@ -57,5 +57,5 @@ spec:
                   name: http
   tls:
     - hosts:
-        - docs.autodarts.io
-      secretName: autodarts-docs-tls
+        - autodarts.diy
+      secretName: autodarts-diy-tls

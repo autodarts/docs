@@ -16,7 +16,7 @@ First, here are a few factors to consider when choosing a camera.
 - Stable framerate around 30 FPS.
 - The most common resolutions are between 640x480 and 1280x720 (higher resolutions seem to have no effect on accuracy).
 
-![Boards by Resolution](/statistics/images/boards_by_resolution.png)
+
 
 With most cameras, it is relatively easy to exchange the lenses afterwards to achieve the desired field of view.
 

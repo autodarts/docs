@@ -98,21 +98,30 @@ The UVC Hack will not work on linux machines that have [UEFI Secure Boot](https:
 
 # Windows
 
-First of all you have to download the matching Installation file from Github:
+First of all you have to download the Autodarts Desktop Client from Github or from the website:
 
 [Download Github](https://github.com/autodarts/releases/releases)
 
-Windows is quite picky when it comes to connecting multiple cameras to the same USB port.
-It is adviced to connect every camera individually to different USB ports.
-It is tested on multiple machines, and this generally seems to work.
-It is not guaranteed to work, though.
-Windows support is still young, and things might break.
-Please be patient.
+[Autodarts.io](https://autodarts.io/downloads/)
 
 {{< /tab >}}
 {{< tab "macOS" >}}
 
 # macOS
+
+First of all you have to download the Autodarts Desktop Client from Github or from the website:
+
+[Download Github](https://github.com/autodarts/releases/releases)
+
+[Autodarts.io](https://autodarts.io/downloads/)
+
+
+
+If you want to use your Mac Headless you have to install Autodarts "the old" way:
+
+{{<hint type=important icon=gdoc_error_outline >}}
+Use this way only if you want to use your System Headless, otherwise use the Desktop Client.
+{{< /hint >}}
 
 ## Requirements
 

@@ -40,10 +40,9 @@ kind: Ingress
 metadata:
   name: docs
   annotations:
-    kubernetes.io/ingress.class: traefik
-    kubernetes.io/tls-acme: "true"
     cert-manager.io/cluster-issuer: letsencrypt-prod
 spec:
+  ingressClassName: nginx
   rules:
     - host: autodarts.diy
       http:

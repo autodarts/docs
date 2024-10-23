@@ -15,7 +15,7 @@ The command tries to install all necessary dependencies and then compiles the UV
 Let me know how this works for you. Here is the command.
 
 ```bash
-bash <(curl -s get.autodarts.io/uvc)
+bash <(curl -sL get.autodarts.io/uvc)
 ```
 
 Now the UVC Hack should work properly and you are ready to go.
@@ -23,7 +23,7 @@ Now the UVC Hack should work properly and you are ready to go.
 You can also uninstall the UVC Hack with this command.
 
 ```bash
-bash <(curl -s get.autodarts.io/uvc) --uninstall
+bash <(curl -sL get.autodarts.io/uvc) --uninstall
 ```
 
 {{<hint type=warning icon=gdoc_info_outline >}}

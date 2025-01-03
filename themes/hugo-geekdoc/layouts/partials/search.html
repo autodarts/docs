@@ -116,6 +116,12 @@
     searchDialog.showModal();
   });
 
+  searchDialog.addEventListener("click", (event) => {
+    if (event.target === searchDialog) {
+      searchDialog.close();
+    }
+  });
+
   async function initializePagefind() {
     try {
       const pagefind = await import("/pagefind/pagefind.js");

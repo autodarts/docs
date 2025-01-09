@@ -1,16 +1,169 @@
-{{ if default true .Site.Params.GeekdocSearch }}
-  <div class="gdoc-search flex align-center">
-    <svg class="gdoc-icon gdoc_search"><use xlink:href="#gdoc_search"></use></svg>
-    <input
-      type="text"
-      id="gdoc-search-input"
-      class="gdoc-search__input"
-      placeholder="{{ i18n "form_placeholder_search" }}..."
-      aria-label="{{ i18n "form_placeholder_search" }}"
-      maxlength="64"
-      data-site-base-url="{{ .Site.BaseURL }}"
-      data-site-lang="{{ .Site.Language.Lang }}"
-    />
-    <ul id="gdoc-search-results" class="gdoc-search__list"></ul>
-  </div>
-{{ end }}
+<div class="search-container flex align-center">
+  <button type="button" id="open-search-dialog" class="search-button">
+    <svg class="gdoc-icon gdoc_search">
+      <use xlink:href="#gdoc_search"></use>
+    </svg>
+    <span>Search</span>
+  </button>
+
+  <dialog id="search-dialog" class="dialog">
+    <input type="text" id="search-input" placeholder="Search for content..." />
+    <ul id="search-results"></ul>
+  </dialog>
+</div>
+
+<style>
+  .search-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--accent-color-lite);
+    color: var(--body-font-color);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .search-button:hover {
+    background-color: var(--accent-color);
+  }
+
+  .search-icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 10px;
+  }
+
+  .search-button span {
+    flex: 1;
+  }
+
+  .dialog {
+    width: 50vw;
+    max-height: 50vh;
+    padding: 20px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--body-background);
+  }
+
+  .dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #search-input {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    z-index: 2;
+    border-radius: 4px;
+    color: var(--body-font-color);
+    background-color: var(--accent-color);
+  }
+
+  #search-results {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    color: var(--body-font-color);
+  }
+
+  #search-results li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    color: var(--body-font-color);
+  }
+
+  #search-results li a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  @media screen and (max-width: 600px) {
+    #search-input {
+      font-size: 0.9rem;
+      padding: 6px;
+    }
+    #search-results li strong {
+      font-size: 1rem;
+      white-space: normal;
+      text-overflow: ellipsis;
+    }
+  }
+</style>
+
+<script>
+  const searchDialog = document.getElementById("search-dialog");
+  const openButton = document.getElementById("open-search-dialog");
+  let pagefindLoaded = false;
+
+  openButton.addEventListener("click", async () => {
+    if (!pagefindLoaded) {
+      await initializePagefind();
+      pagefindLoaded = true;
+    }
+    searchDialog.showModal();
+  });
+
+  searchDialog.addEventListener("click", (event) => {
+    if (event.target === searchDialog) {
+      searchDialog.close();
+    }
+  });
+
+  async function initializePagefind() {
+    try {
+      const pagefind = await import("/pagefind/pagefind.js");
+      const searchInput = document.getElementById("search-input");
+      const searchResults = document.getElementById("search-results");
+
+      searchResults.innerHTML = "<li>Please enter a search term.</li>";
+
+      searchInput.addEventListener("input", async () => {
+        const query = searchInput.value.trim();
+        if (!query) {
+          searchResults.innerHTML = "<li>Please enter a search term.</li>";
+          return;
+        }
+
+        const search = await pagefind.search(query);
+
+        if (search.results.length === 0) {
+          searchResults.innerHTML = "<li>No results found.</li>";
+        } else {
+          searchResults.innerHTML = (
+            await Promise.all(
+              search.results.map(async (result) => {
+                const searchResult = await result.data();
+                return `
+                  <li>
+                    <a href="${searchResult.url}">
+                      <strong>${
+                        searchResult.meta.title || searchResult.url
+                      }</strong>
+                      <p>${searchResult.excerpt || "No preview available."}</p>
+                    </a>
+                  </li>`;
+              })
+            )
+          ).join("");
+        }
+      });
+    } catch (error) {
+      console.error("Error loading Pagefind:", error);
+    }
+  }
+
+  window;
+</script>

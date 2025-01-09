@@ -21,7 +21,8 @@ jobs:
         run: yarn
       - name: Build docs
         run: hugo
-
+      - name: Indexing page
+        run: npx pagefind --source "public"
       - name: Get tag
         run: echo "version=${{ github.run_id }}" >> $GITHUB_ENV
 

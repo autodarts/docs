@@ -16,7 +16,13 @@ Please note that Autodarts is primarily developed for Linux-based systems. While
 
 # Linux
 
-## Requirements
+You can either download the Autodarts Desktop Client from our website: 
+
+[Autodarts.io](https://autodarts.io/downloads/)
+
+or install the command line application as explained below.
+
+## Requirements for command line installation
 
 You will also need `curl`.
 You can install it like this.
@@ -98,9 +104,7 @@ The UVC Hack will not work on linux machines that have [UEFI Secure Boot](https:
 
 # Windows
 
-First of all you have to download the Autodarts Desktop Client from Github or from the website:
-
-[Download Github](https://github.com/autodarts/releases/releases)
+First of all you have to download the Autodarts Desktop Client from the website:
 
 [Autodarts.io](https://autodarts.io/downloads/)
 
@@ -109,9 +113,7 @@ First of all you have to download the Autodarts Desktop Client from Github or fr
 
 # macOS
 
-First of all you have to download the Autodarts Desktop Client from Github or from the website:
-
-[Download Github](https://github.com/autodarts/releases/releases)
+First of all you have to download the Autodarts Desktop Client from the website:
 
 [Autodarts.io](https://autodarts.io/downloads/)
 

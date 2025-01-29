@@ -16,7 +16,6 @@ Please visit the Autodarts.io website to download Autodarts Desktop
 [Autodarts.io](https://autodarts.io/downloads/)
 
 {{< /tab >}}
-{{< tabs "Install Tab" >}}
 {{< tab "Linux" >}}
 
 # Linux

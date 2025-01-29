@@ -6,15 +6,26 @@ weight: 1
 aliases:
   - /install
 ---
+{{< tabs "Install Tab" >}}
+{{< tab "Windows" >}}
 
-{{<hint type=note icon=gdoc_info_outline >}}
-Please note that Autodarts is primarily developed for Linux-based systems. While there are setups available for Windows and macOS, they are currently in alpha release and may contain bugs.
-{{< /hint >}}
+# Windows
 
+Please visit the Autodarts.io website to download Autodarts Desktop
+
+[Autodarts.io](https://autodarts.io/downloads/)
+
+{{< /tab >}}
 {{< tabs "Install Tab" >}}
 {{< tab "Linux" >}}
 
 # Linux
+
+Please visit the Autodarts.io website to download Autodarts Desktop
+
+[Autodarts.io](https://autodarts.io/downloads/)
+
+## Advanced Options
 
 ## Requirements
 
@@ -49,7 +60,7 @@ This also works with the `-n` flag from before.
 bash <(curl -sL get.autodarts.io) 0.20.0
 ```
 
-You can control the the `autodarts.service` with the `systemctl` command.
+You can control the `autodarts.service` with the `systemctl` command.
 
 ```bash
 sudo systemctl start autodarts
@@ -94,27 +105,16 @@ bash <(curl -sL get.autodarts.io/uvc) --uninstall
 The UVC Hack will not work on linux machines that have [UEFI Secure Boot](https://wiki.ubuntu.com/UEFI/SecureBoot) enabled.
 {{< /hint >}}
 {{< /tab >}}
-{{< tab "Windows" >}}
 
-# Windows
-
-First of all you have to download the Autodarts Desktop Client from Github or from the website:
-
-[Download Github](https://github.com/autodarts/releases/releases)
-
-[Autodarts.io](https://autodarts.io/downloads/)
-
-{{< /tab >}}
 {{< tab "macOS" >}}
 
 # macOS
 
-First of all you have to download the Autodarts Desktop Client from Github or from the website:
-
-[Download Github](https://github.com/autodarts/releases/releases)
+Please visit the Autodarts.io website to download Autodarts Desktop
 
 [Autodarts.io](https://autodarts.io/downloads/)
 
+#Advanced Options
 If you want to use your Mac Headless you have to install Autodarts "the old" way:
 
 {{<hint type=important icon=gdoc_error_outline >}}

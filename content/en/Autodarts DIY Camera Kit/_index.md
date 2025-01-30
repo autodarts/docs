@@ -4,6 +4,7 @@ author: Joran den Houting
 lang: en
 weight: 20
 ---
+<br> 
 
 ## Thank You!
 
@@ -37,7 +38,7 @@ After installing your cameras, compare the images to our recommended examples to
 
 ## Mounting Options
 
-{{<hint type=important icon=gdoc_error_outline >}}
+{{<hint type=note icon=gdoc_error_outline >}}
 Always check the design specifications for correct **distance and angle** before printing or purchasing designs in case of 3D printed solutions. Some designs, like most click-on mounts for Target Corona Vision rings, may not meet the necessary requirements.
 {{< /hint >}}
 

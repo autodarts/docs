@@ -21,7 +21,7 @@ If your connection is repeatedly being disrupted and then reconnecting, and you 
 
 If you have recently set up your system and after configuring it through the Board Manager, the board is connecting and disconnecting <u>once per second</u>, it is likely that you forgot to specify a value for the camera resolution. To resolve this issue, you need to manually set the resolution in the configuration file.
 
-You can do this by open the Configfile with this command:
+You can do this by opening the Configfile with this command:
 
 ```
 sudo nano ~/.autodarts/config.cfg
@@ -83,7 +83,7 @@ The config.cfg file is dynamically generated based on your Board Manager setting
 
 > Poor Camera Image
 
-- Try to adjust your camera image optimally using guvcview. As each camera is different, there are no standard settings. Start by playing around with the settings. If you get stuck, you can find help from experienced users on the Discord server. <u>There are many examples from the community for different camera types. Please use the search function before asking for help. There is surely already a discussion about the settings for the type of camera you are using. If not, please keep in mind the principle of "Think first, then ask questions.</u>
+- Try to adjust your camera image optimally using guvcview. As each camera is different, there are no standard settings. Start by playing around with the settings. If you get stuck, you can find help from experienced users on the Discord server. <u>There are many examples from the community for different camera types. Please use the search function before asking for help. There is surely already a discussion about the settings for the type of camera you are using. If not, please keep in mind the principle of "Think first, then ask questions".</u>
 
 > If only one Camera drop frames
 
@@ -128,7 +128,7 @@ The USB bandwidth limitation is not inherent to the USB cable but rather a chara
 
 You have to understand that, in some cases, the production quality of certain inexpensive cameras may differ significantly. If you are working with very cheap cameras, you may need to test around a bit before getting everything to work.
 
-> There are only 2 cameras recogniced within the Board Manager (Config)
+> There are only 2 cameras recognized within the Board Manager (Config)
 
 - Please make sure you connected your 3 cameras at least at 2 different USB buses
 
@@ -138,13 +138,13 @@ You have to understand that, in some cases, the production quality of certain in
 
 > If you are using camera modules with longer cables
 
-- If you have orderd longer cables for your camera modules (like OV9732) please check if they are all working. Some cables are wired differently despite having the same connector. We have also observed that some cables are already defective upon delivery.
+- If you have ordered longer cables for your camera modules (like OV9732) please check if they are all working. Some cables are wired differently despite having the same connector. We have also observed that some cables are already defective upon delivery.
 
 > Change Resolution
 
 - Try to decrease your resolution. As you can see from these [statistics](http://docs.autodarts.io/getting-started/cameras/), it's not necessary to play with high resolution. An aspect ratio of 4:3 can also be advantageous.
 
-> Power consumtion 
+> Power consumption 
 
 - In ***some rare cases***, the power consumption of the cameras could also be a problem. Please check that the cameras comply with USB standards, and if you are able, you can also measure the actual power consumption. This point is only for advanced users. Please prioritize safety and do not put yourselves at risk. If you are not absolutely sure, consult an electrical professional for assistance.
 

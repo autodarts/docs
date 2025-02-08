@@ -13,7 +13,7 @@ So, before selecting an operating system, make sure that the minimum system requ
 Please note that Autodarts is primarily developed for Linux-based systems. While there are setups available for Windows and macOS, they are currently in alpha release and may contain bugs.
 {{< /hint >}}
 
-Releases are available at Github.
+Releases are available at GitHub.
 Follow the link in the menu to the left.
 
 {{<hint type=important icon=gdoc_error_outline >}}
@@ -21,7 +21,7 @@ For Autodarts, the minimum hardware requirements are as follows.
 
 - CPU: 2x2.0GHz or 4x1.5GHz
 - RAM: 1GB
-- USB: 3 ports for cameras ***(at least 2 seperate USB Buses)***
+- USB: 3 ports for cameras ***(at least 2 separate USB Buses)***
 - Storage: At least 1GB of free Storage
 
 {{< /hint >}}
@@ -32,7 +32,7 @@ For Autodarts, the minimum hardware requirements are as follows.
 
 Depending on what your system needs to be able to do, you should pay attention to the following hardware requirements when selecting the ThinClient / Raspberry Pi (4/5) / Mac:
 
-| Autodarts Basic\*        | Autodarts Intermeditate\*\* | Autodarts Professional\*\*\*            |
+| Autodarts Basic\*        | Autodarts Intermediate\*\*  | Autodarts Professional\*\*\*            |
 | ------------------------ | --------------------------- | --------------------------------------- |
 | CPU: 2x2.0GHz / 4x1.5GHz | CPU: 4x2.4GHz               | CPU: 4x2.4GHz (Intel I3 or Ryzen >2018) |
 | RAM: 1GB                 | RAM: 4GB (>8GB for Windows) | >8GB                                    |

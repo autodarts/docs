@@ -28,5 +28,5 @@ Master (The game can be finished by reaching zero by hitting a double or triple 
 With this option, you choose the maximum number of game rounds. If the specified number of rounds is reached, the player with the lowest score wins the game.
 
 - Lobby </br>
-"Public" the lobby will be public available and other palyers can join your game </br>
+"Public" the lobby will be publicly available and other players can join your game. </br>
 "Private" your game will not be published and will not be visible within the lobby tab. </br>

@@ -24,8 +24,8 @@ Selection of the segment to be hit.
 
 - Ends after </br>
 Hits + "5": The game ends after the chosen field of the selected segment is hit 5 times. </br>
-Darts + "33": The game ends after the chosen field of the selected segment is hitted with 33 Darts. (You can chose between 33, 66 or 99 Darts) 
+Darts + "33": The game ends after the chosen field of the selected segment is hit with 33 Darts. (You can chose between 33, 66 or 99 Darts) 
 
 - Lobby </br>
-"Public" the lobby will be public available and other palyers can join your game </br>
+"Public" the lobby will be publicly available and other players can join your game. </br>
 "Private" your game will not be published and will not be visible within the lobby tab. </br>

@@ -51,7 +51,7 @@ Now it's time to test if everything went well. Throw your darts and check if the
 ![Throw Darts 2](/Autodarts-Desktop/images/08_throw_darts.png) </br>
 
 ## Play
-Congratiolations. If you managed to finish the setup you will land on the home screen and able to start to play darts via play.autodarts.io
+Congratulations. If you managed to finish the setup you will land on the home screen and able to start to play darts via play.autodarts.io
 
 ![Home](/Autodarts-Desktop/images/09_finish_setup.png) </br>
 

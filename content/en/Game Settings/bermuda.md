@@ -29,5 +29,5 @@ The points depend on the hit fields; a hit single field gives single points, a h
 ![Bermuda Settings](/game-settings/images/bermuda.png)
 
 - Lobby </br>
-"Public" the lobby will be public available and other palyers can join your game </br>
+"Public" the lobby will be publicly available and other players can join your game. </br>
 "Private" your game will not be published and will not be visible within the lobby tab. </br>

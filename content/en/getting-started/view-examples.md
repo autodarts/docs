@@ -33,7 +33,7 @@ Problem: One of the cameras is rotated by 90 degrees // Solution: Unscrew the ca
 </br>
 
 {{<hint type=tip icon=gdoc_check >}}
-Problem:The image frame is too small // Solution: If you're using ready-made 3D printede holders, check the field of view (FOV) of your cameras and make sure it's around 100°. If you're using a self-made holder, increase the distance of the cameras from the board
+Problem:The image frame is too small // Solution: If you're using ready-made 3D printed holders, check the field of view (FOV) of your cameras and make sure it's around 100°. If you're using a self-made holder, increase the distance of the cameras from the board
 {{< /hint >}}
 
 ![Example Image too close](/camera-mount/images/example_view_1.png)

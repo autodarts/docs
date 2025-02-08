@@ -18,7 +18,7 @@ You also can search for printable files on Cults3d and Thingiverse.
 
 ## Camera module sizes
 
-Camera modules come in differnet formats.
+Camera modules come in different formats.
 The most common formats are 38x38mm (with holes at 34x34mm) and 32x32mm (with holes at 28x28mm).
 Sometimes camera modules feature both formats and you can clip off the outer rims to make a 32x32mm module from the 38x38mm original.
 
@@ -32,7 +32,7 @@ There is also an option to use regular webcams if they feature a standard camera
 
 ## Winmau Plasma Light setup
 
-If you have a Winmau Plamsa Light setup at home, you can simply print three camera arms.
+If you have a Winmau Plasma Light setup at home, you can simply print three camera arms.
 Alternatively, you can also print new feet for the Winmau Plasma Light.
 A finished Winmau Plasma Light setup may look like this.
 
@@ -155,7 +155,7 @@ In addition to the arms from above, you will need to print the pieces that make 
 - 2x [ring_mount.stl](/3d-printing/stl/ring/ring_mount.stl)
 - 1x [ring_mount_cable.stl](/3d-printing/stl/ring/ring_mount_cable.stl) or [ring_mount_cable_groove.stl](/3d-printing/stl/ring/ring_mount_cable_groove.stl)
 
-In addition to the 3D-prinable pieces, you will need to purchase:
+In addition to the 3D-printable pieces, you will need to purchase:
 
 - 1x LED stripe 5m (e.g., [link](https://www.amazon.de/gp/product/B07TJXZNDZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1))
 - 2x in-line switch (e.g., [link](https://www.amazon.de/UEETEK-Streifen-Aus-schalter-Stecker-Schalter-Wie-gezeigt/dp/B077HKVYRY/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14UX4NT2N44A4&keywords=inline+an+ausschalter&qid=1641925914&sprefix=inline+an+aus+schalte%2Caps%2))

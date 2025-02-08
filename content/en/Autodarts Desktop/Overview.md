@@ -17,7 +17,7 @@ On the top right, you'll find the menu bar with the following menus:
     will open the Home screen </br>
 
 - Vision (The "Eye" Icon) </br>
-    will open the vision overview (helpfull for debugging) </br>
+    will open the vision overview (helpful for debugging) </br>
 
 - Configuration (The "Gear" Icon) </br>
     will open the camera configuration menu </br>
@@ -28,7 +28,7 @@ On the top right, you'll find the menu bar with the following menus:
 ## Home
 ![Menu Bar](/Autodarts-Desktop/images/17_home.png) </br>
 
-On the right hand side the Home screen will show you the different board states (Throw, Takeout, Takeout detection) and the recogniced darts.
+On the right hand side the Home screen will show you the different board states (Throw, Takeout, Takeout detection) and the recognized darts.
 
 On the left-hand side, you will find controls (Restart, Stop, Reset), information about the software version, and the ability to check for updates. There's an option for Automatic Detection Updates and some external links that will direct you to play.autodarts.io, the documentation, and the official Discord server.
 
@@ -46,7 +46,7 @@ In the Configuration, you will find all necessary options for your cameras and c
 {{<hint type=info icon=gdoc_info_outline >}}
 Please note that starting from version 0.24.0, the algorithm takes care of possible distortion in your camera lens. That means, with software versions above 0.24.0, you do **not** have to manually adjust distortion if needed.
 {{< /hint >}}
-Below each camera you will find four buttons with the following abilitys:
+Below each camera you will find four buttons with the following abilities:
 
 - The double arrow icon will flip your camera by 180 degrees.
 
@@ -73,7 +73,7 @@ Resetting the Autodarts Desktop Client will purge the entire configuration, and 
 ![Bottom Menu](/Autodarts-Desktop/images/19_bottom_menu_bar.png) </br>
 
 Within the Bottom Information/Menu bar, you get real-time information about Autodarts. On the left side, you see the current status of your Board, and with the three buttons, you can restart the detection, stop the detection, or reset your Board.
-On the right side you get some detailed iformation about the client
+On the right side you get some detailed information about the client
 
 ![FPS Overall](/Autodarts-Desktop/images/20_overall_fps.png) </br>
 Show the FPS over all 3 cameras

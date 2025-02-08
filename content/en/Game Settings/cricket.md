@@ -26,7 +26,7 @@ The player who scored the most points will win the game.</br>
 
 - Cut Throat:</br>
 In Cricket darts, "cut-throat" is a variation of the game where players can target their opponents' numbers to score points.
-In addition to Normal mode youre opponent can score points for you. If Player "A" has not closed the number 20, and if Player "B" hits the number 20 four times, then Player "A" gets 20 points. So, if you hit your target number more than three times, your opponent receives the points you hit too much, provided they haven't already closed out the number. The game typically ends when all numbers (20 to 15 and bullseye) have been closed out by at least one player. The player with the highest total points wins.
+In addition to Normal mode, your opponent can score points for you. If Player "A" has not closed the number 20, and if Player "B" hits the number 20 four times, then Player "A" gets 20 points. So, if you hit your target number more than three times, your opponent receives the points you hit too much, provided they haven't already closed out the number. The game typically ends when all numbers (20 to 15 and bullseye) have been closed out by at least one player. The player with the highest total points wins.
 
 - Max rounds </br>
 With this option, you choose the maximum number of game rounds.
@@ -43,5 +43,5 @@ Legs: If you choose this mode, you can set a limit on the number of legs to be p
 Sets: If you choose this mode, you can set a limit on the number of sets to be played (currently it's limited to "first to 7 sets"). In this mode, you can also choose whether a set is won by winning 2 or 3 sets.</br>
 
 - Lobby </br>
-"Public" the lobby will be public available and other palyers can join your game </br>
+"Public" the lobby will be publicly available and other players can join your game. </br>
 "Private" your game will not be published and will not be visible within the lobby tab. </br>

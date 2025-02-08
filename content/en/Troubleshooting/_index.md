@@ -142,7 +142,7 @@ You have to understand that, in some cases, the production quality of certain in
 
 > Change Resolution
 
-- Try to decrease your resolution. As you can see from these [statistics](http://docs.autodarts.io/getting-started/cameras/), it's not necessary to play with high resolution. An aspect ratio of 4:3 can also be advantageous.
+- Try to decrease your resolution. As you can see from these [statistics](/getting-started/cameras/), it's not necessary to play with high resolution. An aspect ratio of 4:3 can also be advantageous.
 
 > Power consumption 
 

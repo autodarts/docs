@@ -1,4 +1,4 @@
-baseURL = "https://docs.autodarts.io"
+baseURL = "https://autodarts.diy"
 title = "Autodarts Docs"
 theme = "hugo-geekdoc"
 

@@ -33,7 +33,7 @@ Now, you are ready to set up your cameras and initiate the calibration process.
 
 ## Camera Calibration
 
-Switch to the Calibration Tab and calibrate your cameras by dragging the yellow markers into the correct order or by clicking the "Auto" button. If your calibrated picture resembles the example provided below, you can save your calibration and proceed with the setup of your next camera.
+Switch to the Calibration tab and calibrate your cameras by dragging the yellow markers into the correct order or by clicking the "Auto" button. If your calibrated picture resembles the example provided below, you can save your calibration and proceed with the setup of your next camera.
 
 ![Camera Calibration](/first-start/images/camera-calibration.png)
 

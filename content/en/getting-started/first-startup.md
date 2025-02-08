@@ -8,14 +8,14 @@ weight: 5
 If you have followed the installation guide correctly, you should now be able to run Autodarts for the first time.
 
 {{<hint type=note icon=gdoc_info_outline >}}
-- You already registerd to autodarts.io and created an Dartboard
+- You already registered to autodarts.io and created an Dartboard
 - You setup your Cameras and mounted them correctly
 {{< /hint >}}
 
 Start up the computer and launch your preferred internet browser and access the Board Manager by entering: http://localhost:3180
 
 {{<hint type=note icon=gdoc_info_outline >}}
-If you want to reach the Board Manager from another computer in your Network you have to gather the IP from your Autodarts Machine, the easyiest way is to look up in your Router (for example: http://192.168.178.123:3180)
+If you want to reach the Board Manager from another computer in your Network you have to gather the IP from your Autodarts Machine, the easiest way is to look up in your Router (for example: http://192.168.178.123:3180)
 {{< /hint >}}
 
 You should now see the Board Manager ready for setup.

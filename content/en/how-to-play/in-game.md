@@ -9,7 +9,7 @@ draft: false
 
 ![Overview](/how-to-play/images/Overview.png)
 
-## Boardstatus
+## Board status
 This symbol changes depending on the board status
 
 ![Symbol Offline](/how-to-play/images/symbol_offline.png)

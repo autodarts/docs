@@ -17,5 +17,5 @@ In this game mode, you have to hit the specified fields three times. The points 
 1-7: The Segments 1 thru 7 will be played
 
 - Lobby </br>
-"Public" the lobby will be public available and other palyers can join your game </br>
+"Public" the lobby will be publicly available and other players can join your game. </br>
 "Private" your game will not be published and will not be visible within the lobby tab. </br>

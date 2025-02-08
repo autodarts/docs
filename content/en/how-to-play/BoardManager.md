@@ -39,9 +39,9 @@ Actual State of the Board. Possible Values: </br>
 
 ## Detection State
 These Values are for better Debugging if there are problems with the detection or takeout
-- Wait (awating Darts) </br>
+- Wait (awaiting Darts) </br>
 - Stable (Images are stable) </br>
-- Empty (Board is emtpy) </br>
+- Empty (Board is empty) </br>
 - Dart (Dart detected) </br>
 - Hand (Hand detected) </br>
 - Partial Takeout (Takeout is not finished) </br>

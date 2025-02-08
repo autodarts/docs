@@ -14,7 +14,7 @@ Around the Clock is a variant of Round the World. The objective of the game is t
 
 - Mode: </br>
 Full:
-All fields are counted  </br>
+All fields are counted.  </br>
 Outer Single:
 Only outer single fields are counted. </br>
 Single:
@@ -37,5 +37,5 @@ Random-Bull: The throwing order is Random and then bull.
 
 
 - Lobby </br>
-"Public" the lobby will be public available and other palyers can join your game </br>
+"Public" the lobby will be publicly available and other players can join your game. </br>
 "Private" your game will not be published and will not be visible within the lobby tab. </br>

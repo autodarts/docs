@@ -18,5 +18,5 @@ Round the world is a easy variant of Around the clock. The objective of the game
 Random-Bull: The throwing order is Random and then bull.
 
 - Lobby </br>
-"Public" the lobby will be public available and other palyers can join your game </br>
+"Public" the lobby will be publicly available and other players can join your game. </br>
 "Private" your game will not be published and will not be visible within the lobby tab. </br>

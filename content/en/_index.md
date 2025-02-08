@@ -21,14 +21,14 @@ weight: 0
 Autodarts.io is a DIY camera-based automatic scoring system for steel dart boards.
 
 It's designed to run on cost-effective hardware.
-The software runs on most hardware, such as Jetson Nano, Raspberry Pi 4, or Intel NUC, that are running Linux-based operating systems.
+The software runs on most hardware, such as Jetson Nano, Raspberry Pi 5, or Intel NUC, that are running Linux-based operating systems.
 There are also Windows and Mac builds in alpha release. At this stage of development, accuracies of up to 99% are possible.
 
-All you need is:
+All you need to get started is:
 
 - A standard dart board with a 360-degree LED ring light to eliminate shadows.
 - Three USB cameras without lens distortion.
-- A computing unit like a Jetson Nano, Raspberry Pi 4, Intel NUC or equivalent.
+- A computing unit like a Jetson Nano, Raspberry Pi 5, Intel NUC or equivalent.
 - A mounting solution to position the cameras around the board.
 - A tablet or a small laptop to open the Autodarts web page on.
 

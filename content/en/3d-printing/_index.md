@@ -36,7 +36,7 @@ If you have a Winmau Plasma Light setup at home, you can simply print three came
 Alternatively, you can also print new feet for the Winmau Plasma Light.
 A finished Winmau Plasma Light setup may look like this.
 
-![alt text](/3d-printing/images/plasma_assembly_git.png)
+![Winmau Plasma Light setup](/3d-printing/images/plasma_assembly_git.png)
 
 ### Camera Arms
 
@@ -48,7 +48,7 @@ There are multiple options.
 This is the original design of the Autodarts arms.
 It is only compatible with 32x32mm modules.
 
-![alt text](/3d-printing/images/plasma_arm_assembly_git.png)
+![32x32mm modules with 28x28mm holes](/3d-printing/images/plasma_arm_assembly_git.png)
 
 Downloads:
 
@@ -59,7 +59,7 @@ Downloads:
 
 For standard webcams with a camera mount thread, you can use the following arms.
 
-![alt text](/3d-printing/images/plasma_arm_assembly_webcam_git.png)
+![Standard webcam mount](/3d-printing/images/plasma_arm_assembly_webcam_git.png)
 
 Downloads:
 
@@ -70,7 +70,7 @@ Downloads:
 
 To make the design a little bit more flexible, there is also a modular version of the arm that does not have a fixed head.
 
-![alt text](/3d-printing/images/plasma_arm_assembly_modular_git.png)
+![Modular arm](/3d-printing/images/plasma_arm_assembly_modular_git.png)
 
 Downloads:
 
@@ -81,7 +81,7 @@ Downloads:
 
 For these kinds of modules, you can use the modular arm and the following head.
 
-![alt text](/3d-printing/images/plasma_arm_assembly_modular_git_2.png)
+![38x38mm modules with 34x34mm holes](/3d-printing/images/plasma_arm_assembly_modular_git_2.png)
 
 Downloads:
 
@@ -142,9 +142,9 @@ The feet for the Winmau Plasma Light from above are **not** compatible with this
 Make sure to print the feet that are linked further down.
 A complete setup may look like this.
 
-![alt text](/3d-printing/images/print_assembly_git.png)
+![Complete assembly](/3d-printing/images/print_assembly_git.png)
 
-![alt text](/3d-printing/images/print_arm_assembly_git.png)
+![Mounting arm](/3d-printing/images/print_arm_assembly_git.png)
 
 ### Pieces
 
@@ -157,8 +157,8 @@ In addition to the arms from above, you will need to print the pieces that make 
 
 In addition to the 3D-printable pieces, you will need to purchase:
 
-- 1x LED stripe 5m (e.g., [link](https://www.amazon.de/gp/product/B07TJXZNDZ/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1))
-- 2x in-line switch (e.g., [link](https://www.amazon.de/UEETEK-Streifen-Aus-schalter-Stecker-Schalter-Wie-gezeigt/dp/B077HKVYRY/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=14UX4NT2N44A4&keywords=inline+an+ausschalter&qid=1641925914&sprefix=inline+an+aus+schalte%2Caps%2))
+- 1x LED stripe 5m (e.g., [link](https://www.amazon.de/gp/product/B07TJXZNDZ))
+- 2x in-line switch (e.g., [link](https://www.amazon.de/UEETEK-Streifen-Aus-schalter-Stecker-Schalter-Wie-gezeigt/dp/B077HKVYRY))
 
 Screws, nuts, and washers are the same as for the Winmau Plasma Light setup.
 

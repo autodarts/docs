@@ -113,7 +113,7 @@ Please visit the Autodarts.io website to download Autodarts Desktop
 
 [Autodarts.io](https://autodarts.io/downloads/)
 
-#Advanced Options
+# Advanced Options
 If you want to use your Mac Headless you have to install Autodarts "the old" way:
 
 {{<hint type=important icon=gdoc_error_outline >}}

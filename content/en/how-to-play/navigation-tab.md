@@ -32,5 +32,5 @@ The Config Tab is for configuration purposes. Here, you can input your Board ID 
 ![config](/how-to-play/images/config.png)
 
 ## Distortion
-Here you can do the distortion if needed. For further details about distortion please read the [distortion](http://docs.autodarts.io/getting-started/distortion/) page.
+Here you can do the distortion if needed. For further details about distortion please read the [distortion](/getting-started/distortion/) page.
 ![distortion](/how-to-play/images/distortion.png)

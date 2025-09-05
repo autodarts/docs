@@ -12,7 +12,7 @@ We can use the original holes to mount a camera arm to the Winmau Plasma light.
 Autodarts does provide 3D models for an entire LED ring to print.
 
 {{<hint type=note icon=gdoc_info_outline >}}
-You also can search for printable files on Cults3d and Thingiverse.
+You also can search for printable files on Cults3d and Thingiverse. The one we can recommend is [the one from Robbel3D](https://cults3d.com/en/3d-model/gadget/steeldart-score-system-wie-autodarts).
 {{< /hint >}}
 
 

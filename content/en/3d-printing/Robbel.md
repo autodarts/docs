@@ -8,16 +8,20 @@ weight: 40
 
 This modular 3D-printed system positions three cameras at 120° angles around a dartboard. It enables reliable hit detection from multiple perspectives. The mounts are compatible with various cameras and lighting rings.
 
+{{<hint type=note icon=gdoc_info_outline >}}
+You'll find the files on [https://cults3d.com/en/3d-model/gadget/steeldart-score-system-wie-autodarts](https://cults3d.com/en/3d-model/gadget/steeldart-score-system-wie-autodarts).
+{{< /hint >}}
+
 ### **Compatible camera modules**
 
 The system supports camera boards with dimensions of **32x32 mm** and a hole spacing of 28x28mm.
 
-| Camera sensor | Manufacturer/brand | Resolution |
-| ----- | ----- | ----- |
-| OV9732 | HBV,GXIVision | 1MP (1280x720) |
-| OV2710 | HBV | 2MP (1280x960) |
-| OV2735 | GXIVision | 2MP (1280x960) |
-| IMX179 | HBV,GXIVision | 8MP (1280x960) |
+| Camera sensor | Manufacturer/brand | Resolution      |
+| ----- | ----- |-----------------|
+| OV9732 | HBV,GXIVision | 1MP (1280x720)  |
+| OV2710 | HBV | 2MP (1280x1024) |
+| OV2735 | GXIVision | 2MP (1280x960)  |
+| IMX179 | HBV,GXIVision | 8MP (1280x960)  |
 
 ![Image1](/3d-printing/images/robbel/1.png)
 

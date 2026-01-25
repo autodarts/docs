@@ -46,7 +46,7 @@ Depending on what your system needs to be able to do, you should pay attention t
 \*\*\* Board Manager, Monitor, up to 4 Extensions
 
 {{<hint type=note icon=gdoc_info_outline >}}
-Please check out the [Example Setups](https://docs.autodarts.io/getting-started/example-setups/) section. There, you will find some tested setups that will help you determine the best hardware for your needs.
+Please check out the [Example Setups](/getting-started/example-setups/) section. There, you will find some tested setups that will help you determine the best hardware for your needs.
 {{< /hint >}}
 
 ## Cameras
@@ -55,5 +55,5 @@ For cameras, you should consider purchasing OV9732 with a 100° viewing angle. T
 
 ## Dartboard illumination
 
-You can buy ready-made solutions like the "Winmau Plasma" or "Target Corona." You can also build your own ring. For this, please check out the 3D Printing [3D Printing section](https://docs.autodarts.io/3d-printing/), where you can find STL files for the Winmau Plasma ring. Additionally, you can find files to construct your own ring.
+You can buy ready-made solutions like the "Winmau Plasma" or "Target Corona." You can also build your own ring. For this, please check out the 3D Printing [3D Printing section](/3d-printing/), where you can find STL files for the Winmau Plasma ring. Additionally, you can find files to construct your own ring.
 

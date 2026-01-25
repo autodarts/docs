@@ -6,6 +6,12 @@ weight: 4
 draft: false
 ---
 
+# Open Board Manager
+
+To open the Board Manager, go to your Boards on https://play.autodarts.io and select the 'Board Manager' icon on your board’s tile. The marked icon in the image shows exactly where to click.
+
+{{< figure src="/how-to-play/images/boards_bm_nav.jpeg" width="500px" alt="Open Board Manager" >}}
+
 # Status Bar
 
 ![BM Status Bar](/how-to-play/images/StatusBar.png)

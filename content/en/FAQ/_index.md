@@ -89,7 +89,7 @@ Create an Account at:
 https://play.autodarts.io/
 
 Register a new board.
-You will receive a Board IDand an API Key.
+You will receive a Board ID and an API Key.
 Please copy both keys, as you will need them during the first startup
 
 Then follow the instructions at:

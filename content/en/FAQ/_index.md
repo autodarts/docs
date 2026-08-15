@@ -82,7 +82,7 @@ Please follow the corresponding instructions for your operating system at:
 {{< expand "What do I have to do after the first installation?" "..." >}}
 
 Create an account at:
-https://play.autodarts.io/
+https://play.autodarts.com/
 
 Register a new board.
 You will receive a Board ID and an API Key.

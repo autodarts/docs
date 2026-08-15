@@ -6,4 +6,4 @@ weight: 1
 draft: false
 ---
 
-## In this section, play.autodarts.io and all the functions will be explained
+## In this section, play.autodarts.com and all the functions will be explained

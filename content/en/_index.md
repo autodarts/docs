@@ -18,7 +18,7 @@ weight: 0
 </a>
 
 
-Autodarts.io is a DIY camera-based automatic scoring system for steel dart boards.
+Autodarts.com is a DIY camera-based automatic scoring system for steel dart boards.
 
 It's designed to run on cost-effective hardware.
 The software runs on most hardware, such as Jetson Nano, Raspberry Pi 5, or Intel NUC, that are running Linux-based operating systems.

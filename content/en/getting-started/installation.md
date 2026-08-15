@@ -11,18 +11,18 @@ aliases:
 
 # Windows
 
-Please visit the Autodarts.io website to download Autodarts Desktop
+Please visit the Autodarts.com website to download Autodarts Desktop
 
-[Autodarts.io](https://autodarts.io/downloads/)
+[Autodarts.com](https://autodarts.com/downloads/)
 
 {{< /tab >}}
 {{< tab "Linux" >}}
 
 # Linux
 
-Please visit the Autodarts.io website to download Autodarts Desktop
+Please visit the Autodarts.com website to download Autodarts Desktop
 
-[Autodarts.io](https://autodarts.io/downloads/)
+[Autodarts.com](https://autodarts.com/downloads/)
 
 ## Advanced Options
 
@@ -42,13 +42,13 @@ On linux distributions with different package managers, use the one provided.
 If you want to install autodarts with automatic start on boot go along with this:
 
 ```bash
-bash <(curl -sL get.autodarts.io)
+bash <(curl -sL get.autodarts.com)
 ```
 
 If you do not want the autostart systemd service to be installed, you can use the `-n` flag as follows.
 
 ```bash
-bash <(curl -sL get.autodarts.io) -n
+bash <(curl -sL get.autodarts.com) -n
 ```
 
 If you want to install a specific version, e.g., `0.20.0`, then you can append the required version to the command as follows.
@@ -56,7 +56,7 @@ This can be helpful if you want to downgrade to an earlier version.
 This also works with the `-n` flag from before.
 
 ```bash
-bash <(curl -sL get.autodarts.io) 0.20.0
+bash <(curl -sL get.autodarts.com) 0.20.0
 ```
 
 You can control the `autodarts.service` with the `systemctl` command.
@@ -89,7 +89,7 @@ The command tries to install all necessary dependencies and then compiles the UV
 Let me know how this works for you. Here is the command.
 
 ```bash
-bash <(curl -sL get.autodarts.io/uvc)
+bash <(curl -sL get.autodarts.com/uvc)
 ```
 
 Now the UVC Hack should work properly and you are ready to go.
@@ -97,7 +97,7 @@ Now the UVC Hack should work properly and you are ready to go.
 You can also uninstall the UVC Hack with this command.
 
 ```bash
-bash <(curl -sL get.autodarts.io/uvc) --uninstall
+bash <(curl -sL get.autodarts.com/uvc) --uninstall
 ```
 
 {{<hint type=warning icon=gdoc_info_outline >}}
@@ -109,9 +109,9 @@ The UVC Hack will not work on linux machines that have [UEFI Secure Boot](https:
 
 # macOS
 
-Please visit the Autodarts.io website to download Autodarts Desktop
+Please visit the Autodarts.com website to download Autodarts Desktop
 
-[Autodarts.io](https://autodarts.io/downloads/)
+[Autodarts.com](https://autodarts.com/downloads/)
 
 # Advanced Options
 If you want to use your Mac Headless you have to install Autodarts "the old" way:
@@ -141,14 +141,14 @@ brew install curl
 You can then install autodarts with the following command.
 
 ```bash
-bash <(curl -sL get.autodarts.io)
+bash <(curl -sL get.autodarts.com)
 ```
 
 If you want to install a specific version, e.g., `0.20.0`, then you can append the required version to the command as follows.
 This can be helpful if you want to downgrade to an earlier version.
 
 ```bash
-bash <(curl -sL get.autodarts.io) 0.20.0
+bash <(curl -sL get.autodarts.com) 0.20.0
 ```
 
 {{< /tab >}}

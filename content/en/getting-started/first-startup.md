@@ -8,7 +8,7 @@ weight: 5
 If you have followed the installation guide correctly, you should now be able to run Autodarts for the first time.
 
 {{<hint type=note icon=gdoc_info_outline >}}
-- You already registered to autodarts.io and created an Dartboard
+- You already registered to autodarts.com and created an Dartboard
 - You setup your Cameras and mounted them correctly
 {{< /hint >}}
 
@@ -20,7 +20,7 @@ If you want to reach the Board Manager from another computer in your Network you
 
 You should now see the Board Manager ready for setup.
 
-Before configuring your cameras, copy your Board ID and API Key, which can be found under the User menu in the "My Boards" section at autodarts.io
+Before configuring your cameras, copy your Board ID and API Key, which can be found under the User menu in the "My Boards" section at autodarts.com
 Paste these details into your Board Manager.
 
 Select your webcams and preferred resolution, then click the Save button.

@@ -30,7 +30,7 @@ On the top right, you'll find the menu bar with the following menus:
 
 On the right hand side the Home screen will show you the different board states (Throw, Takeout, Takeout detection) and the recognized darts.
 
-On the left-hand side, you will find controls (Restart, Stop, Reset), information about the software version, and the ability to check for updates. There's an option for Automatic Detection Updates and some external links that will direct you to play.autodarts.io, the documentation, and the official Discord server.
+On the left-hand side, you will find controls (Restart, Stop, Reset), information about the software version, and the ability to check for updates. There's an option for Automatic Detection Updates and some external links that will direct you to play.autodarts.com, the documentation, and the official Discord server.
 
 ## Vision
 {{<hint type=info icon=gdoc_info_outline >}}

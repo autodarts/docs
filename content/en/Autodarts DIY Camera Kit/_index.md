@@ -55,7 +55,7 @@ You have the freedom to build your own camera arms using any materials of your c
 
 ## Download the Autodarts Software
 
-Once your cameras are properly installed, download the **Autodarts Desktop software** to get started: 👉 [Download Here](https://autodarts.io/downloads)
+Once your cameras are properly installed, download the **Autodarts Desktop software** to get started: 👉 [Download Here](https://autodarts.com/downloads)
 
 <br>
 

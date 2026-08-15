@@ -13,14 +13,14 @@ If you have successfully installed the Autodarts Desktop Client, you can begin t
 
 
 ## Sign in
-Open the Autodarts Desktop Client. You will encounter a screen prompting you to sign in to Autodarts. Click on the "Sign in with Autodarts.io" button, which will open your browser. Sign in and click on 'Open Link'.
+Open the Autodarts Desktop Client. You will encounter a screen prompting you to sign in to Autodarts. Click on the "Sign in with Autodarts.com" button, which will open your browser. Sign in and click on 'Open Link'.
 
 ![Desktop Login](/Autodarts-Desktop/images/01_sign_in.png) </br>
 
 ![Browser Login](/Autodarts-Desktop/images/16_open_link.png) </br>
 
 ## Create Board
-Now it's time to set up a Board. You can either create a new Board or claim an existing one. You will only see the 'Claim Board' option if you have already created a board within your Autodarts.io Account.
+Now it's time to set up a Board. You can either create a new Board or claim an existing one. You will only see the 'Claim Board' option if you have already created a board within your Autodarts.com Account.
 
 {{<hint type=important icon=gdoc_info_outline >}}
 Claiming a board will unregister it from other devices that might be using it
@@ -51,7 +51,7 @@ Now it's time to test if everything went well. Throw your darts and check if the
 ![Throw Darts 2](/Autodarts-Desktop/images/08_throw_darts.png) </br>
 
 ## Play
-Congratulations. If you managed to finish the setup you will land on the home screen and able to start to play darts via play.autodarts.io
+Congratulations. If you managed to finish the setup you will land on the home screen and able to start to play darts via play.autodarts.com
 
 ![Home](/Autodarts-Desktop/images/09_finish_setup.png) </br>
 

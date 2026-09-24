@@ -5,6 +5,10 @@ lang: en
 weight: 5
 ---
 
+{{<hint type=warning icon=gdoc_error_outline >}}
+**Earlier versions only.** Board Manager is the browser interface of Autodarts 0.x and is not supported from version 2 on. In version 2, everything it did is in the [Autodarts Desktop](/Autodarts-Desktop/) window, or on the `autodarts` terminal screen of a headless install (see [Installation](/getting-started/installation/)).
+{{< /hint >}}
+
 If you have followed the installation guide correctly, you should now be able to run Autodarts for the first time.
 
 {{<hint type=note icon=gdoc_info_outline >}}

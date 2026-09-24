@@ -6,6 +6,10 @@ weight: 4
 draft: false
 ---
 
+{{<hint type=warning icon=gdoc_error_outline >}}
+**Earlier versions only.** Board Manager is the browser interface of Autodarts 0.x and is not supported from version 2 on. In version 2, everything it did is in the [Autodarts Desktop](/Autodarts-Desktop/) window, or on the `autodarts` terminal screen of a headless install (see [Installation](/getting-started/installation/)).
+{{< /hint >}}
+
 # Open Board Manager
 
 To open the Board Manager, go to your Boards on https://play.autodarts.com and select the 'Board Manager' icon on your board’s tile. The marked icon in the image shows exactly where to click.

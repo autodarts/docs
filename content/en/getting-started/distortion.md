@@ -4,6 +4,11 @@ author: Steve_Mutter
 lang: en
 weight: 6
 ---
+
+{{<hint type=warning icon=gdoc_error_outline >}}
+**Earlier versions only.** Board Manager is the browser interface of Autodarts 0.x and is not supported from version 2 on. In version 2, everything it did is in the [Autodarts Desktop](/Autodarts-Desktop/) window, or on the `autodarts` terminal screen of a headless install (see [Installation](/getting-started/installation/)).
+{{< /hint >}}
+
 {{<hint type=info icon=gdoc_info_outline >}}
 Distortion correction is necessary only when your cameras exhibit significant distortion. Distortion means the pictures taken by your cameras are warped in some way. Please note that starting from version 0.24.0, the algorithm takes care of possible distortion in your camera lens. That means, with software versions above 0.24.0, you do not have to manually adjust distortion if needed.
 {{< /hint >}}

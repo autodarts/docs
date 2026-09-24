@@ -54,8 +54,6 @@ autodarts update    # install the latest release
 autodarts --help    # everything else
 ```
 
-Board Manager stays available in a browser at `http://<the board's address>:3180`.
-
 {{<hint type=warning icon=gdoc_info_outline >}}
 If this machine ran the previous version (Autodarts 0.x), remove it *before* installing the new one, so the two do not fight over the cameras. Your settings in `~/.config/autodarts` are kept, and the new version picks up the board's sign-in from them.
 {{< /hint >}}

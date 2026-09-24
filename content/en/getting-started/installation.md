@@ -24,57 +24,50 @@ Please visit the Autodarts.com website to download Autodarts Desktop
 
 [Autodarts.com](https://autodarts.com/downloads/)
 
-## Advanced Options
+## Headless (advanced)
 
-## Requirements
+{{<hint type=important icon=gdoc_error_outline >}}
+Only for a machine without a screen — a Raspberry Pi or a mini PC you reach over SSH. Everyone else should use Autodarts Desktop above.
+{{< /hint >}}
 
-You will also need `curl`.
-You can install it like this.
+You need `curl`. Most systems have it; if yours does not:
 
 ```bash
 sudo apt install curl -y
 ```
 
-On linux distributions with different package managers, use the one provided.
-
-## Installation
-
-If you want to install autodarts with automatic start on boot go along with this:
+Then install for your user (no `sudo` needed):
 
 ```bash
-bash <(curl -sL get.autodarts.com)
+curl -fsSL https://autodarts.sh | bash -s -- --headless
 ```
 
-If you do not want the autostart systemd service to be installed, you can use the `-n` flag as follows.
+Add `--beta` to follow the beta track instead. Headless builds exist for x86_64, arm64 and 32-bit Raspberry Pi (armv7l).
+
+Once installed, run `autodarts`. It opens the board's own screen in the terminal, where you sign in (scan the QR code or open the address it shows, on any device), create or claim your board, and set up and calibrate the cameras. Its **Service** section installs the service that keeps the board running in the background and starts it on boot.
+
+Other commands:
 
 ```bash
-bash <(curl -sL get.autodarts.com) -n
+autodarts remote    # manage a board elsewhere on your network, from any machine
+autodarts update    # install the latest release
+autodarts --help    # everything else
 ```
 
-If you want to install a specific version, e.g., `0.20.0`, then you can append the required version to the command as follows.
-This can be helpful if you want to downgrade to an earlier version.
-This also works with the `-n` flag from before.
+Board Manager stays available in a browser at `http://<the board's address>:3180`.
+
+{{<hint type=warning icon=gdoc_info_outline >}}
+If this machine ran the previous version (Autodarts 0.x), remove it *before* installing the new one, so the two do not fight over the cameras. Your settings in `~/.config/autodarts` are kept, and the new version picks up the board's sign-in from them.
+{{< /hint >}}
 
 ```bash
-bash <(curl -sL get.autodarts.com) 0.20.0
+sudo systemctl disable --now autodarts
+sudo rm -f /etc/systemd/system/autodarts.service /etc/systemd/system/autodartsupdater.service
+sudo systemctl daemon-reload
+rm -rf ~/.local/opt/autodarts ~/.local/bin/autodarts ~/.local/bin/updater.sh
 ```
 
-You can control the `autodarts.service` with the `systemctl` command.
-
-```bash
-sudo systemctl start autodarts
-sudo systemctl stop autodarts
-sudo systemctl restart autodarts
-sudo systemctl status autodarts
-sudo systemctl disable autodarts
-sudo systemctl enable autodarts
-```
-
-If you want to see the log output, you can use the following command.
-
-```bash
-journalctl -u autodarts -f
-```
+To uninstall: `curl -fsSL https://autodarts.sh | bash -s -- --uninstall --headless` (use `--purge` instead to also delete settings and calibration).
 
 # UVC Hack
 
@@ -113,43 +106,15 @@ Please visit the Autodarts.com website to download Autodarts Desktop
 
 [Autodarts.com](https://autodarts.com/downloads/)
 
-# Advanced Options
-If you want to use your Mac Headless you have to install Autodarts "the old" way:
+## Headless (advanced)
 
-{{<hint type=important icon=gdoc_error_outline >}}
-Use this way only if you want to use your System Headless, otherwise use the Desktop Client.
-{{< /hint >}}
-
-## Requirements
-
-The macOS version is dynamically linked and does not come with OpenCV included.
-make sure that you install OpenCV 4.8.0 opencv first.
+To run a Mac as a board without the Desktop app, install the headless version from a terminal — no OpenCV or Homebrew needed:
 
 ```bash
-brew install opencv
+curl -fsSL https://autodarts.sh | bash -s -- --headless
 ```
 
-You will also need `curl`.
-You can install it like this.
-
-```bash
-brew install curl
-```
-
-## Installation
-
-You can then install autodarts with the following command.
-
-```bash
-bash <(curl -sL get.autodarts.com)
-```
-
-If you want to install a specific version, e.g., `0.20.0`, then you can append the required version to the command as follows.
-This can be helpful if you want to downgrade to an earlier version.
-
-```bash
-bash <(curl -sL get.autodarts.com) 0.20.0
-```
+Then run `autodarts` and follow the steps on its screen, as described in the Linux tab.
 
 {{< /tab >}}
 {{< /tabs >}}

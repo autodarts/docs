@@ -67,9 +67,9 @@ It is recommended to use the orientation as shown in the [Camera Position](/gett
 {{< /expand >}}
 {{< expand "Where can I download Autodarts?" "..." >}}
 
-For the newest Release please visit our GitHub Repository:
+Download Autodarts Desktop for Windows, macOS and Linux from the Autodarts website:
 
-[⁠Autodarts on GitHub](https://github.com/autodarts/releases/releases)
+[⁠autodarts.com/downloads](https://autodarts.com/downloads)
 
 {{< /expand >}}
 {{< expand "How to install Autodarts?" "..." >}}

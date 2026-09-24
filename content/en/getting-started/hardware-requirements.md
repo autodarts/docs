@@ -13,8 +13,7 @@ So, before selecting an operating system, make sure that the minimum system requ
 Please note that Autodarts is primarily developed for Linux-based systems. While there are setups available for Windows and macOS, they are currently in alpha release and may contain bugs.
 {{< /hint >}}
 
-Releases are available at GitHub.
-Follow the link in the menu to the left.
+Downloads are available at [autodarts.com/downloads](https://autodarts.com/downloads).
 
 {{<hint type=important icon=gdoc_error_outline >}}
 For Autodarts, the minimum hardware requirements are as follows.

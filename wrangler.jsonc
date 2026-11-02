@@ -10,5 +10,7 @@
     "not_found_handling": "404-page"
   },
   "workers_dev": true,
-  "preview_urls": true
+  "preview_urls": true,
+  // Wrangler creates the DNS record and certificate for this hostname.
+  "routes": [{ "pattern": "autodarts.diy", "custom_domain": true }]
 }

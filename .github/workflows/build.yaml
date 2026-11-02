@@ -1,7 +1,6 @@
-# Builds the site with Hugo and deploys it to the autodarts-diy-docs Cloudflare
-# Pages project (gitops: terraform/cloudflare/pages.tf). main is production
-# (autodarts.diy); any other branch gets a preview at
-# <branch>.autodarts-diy-docs-29l.pages.dev.
+# Builds the site with Hugo and deploys the autodarts-diy-docs Worker
+# (wrangler.jsonc). main is production (autodarts.diy); any other branch is
+# uploaded as a preview version at <branch>-autodarts-diy-docs.autodarts.workers.dev.
 name: Deploy docs
 
 on:
@@ -31,12 +30,16 @@ jobs:
       - name: Build docs
         run: hugo
 
-      - name: Deploy to Cloudflare Pages
+      # Preview aliases must be lowercase letters, digits and hyphens.
+      - id: alias
+        run: echo "alias=$(echo '${{ github.ref_name }}' | tr '[:upper:]' '[:lower:]' | tr -c 'a-z0-9' '-' | sed -E 's/-+/-/g; s/^-|-$//g' | cut -c1-30)" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy to Cloudflare
         id: deploy
         uses: cloudflare/wrangler-action@v4
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          apiToken: ${{ secrets.CLOUDFLARE_WORKERS_API_TOKEN }}
           accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy public --project-name=autodarts-diy-docs --branch=${{ github.ref_name }} --commit-hash=${{ github.sha }}
+          command: ${{ github.ref_name == 'main' && 'deploy' || format('versions upload --preview-alias {0}', steps.alias.outputs.alias) }}
 
-      - run: echo "Deployed to ${{ steps.deploy.outputs.deployment-url }}" >> "$GITHUB_STEP_SUMMARY"
+      - run: echo "Deployed to ${{ steps.deploy.outputs.deployment-url || steps.deploy.outputs.preview-url }}" >> "$GITHUB_STEP_SUMMARY"

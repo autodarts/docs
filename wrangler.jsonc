@@ -1,0 +1,14 @@
+// Static-assets Worker serving the Hugo build (public/). Deployed by
+// .github/workflows/build.yaml: main with `wrangler deploy`, every other branch
+// as a preview version at <branch>-autodarts-diy-docs.autodarts.workers.dev.
+{
+  "name": "autodarts-diy-docs",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": "./public",
+    // Unknown paths get the theme's 404 page, as on Pages.
+    "not_found_handling": "404-page"
+  },
+  "workers_dev": true,
+  "preview_urls": true
+}

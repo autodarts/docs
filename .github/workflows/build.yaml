@@ -1,18 +1,29 @@
+# Builds the site with Hugo and deploys it to the autodarts-diy-docs Cloudflare
+# Pages project (gitops: terraform/cloudflare/pages.tf). main is production
+# (autodarts.diy); any other branch gets a preview at
+# <branch>.autodarts-diy-docs-29l.pages.dev.
+name: Deploy docs
+
 on:
   push:
-    branches:
-      - "main"
   workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
   deploy:
     name: Deploy docs
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "0.149.0"
           extended: true
@@ -21,10 +32,11 @@ jobs:
         run: hugo
 
       - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        id: deploy
+        uses: cloudflare/wrangler-action@v4
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: 2cd52de272eccd3c0c6ab86503c40848
-          projectName: autodarts-diy-docs
-          directory: public
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          apiToken: ${{ secrets.CLOUDFLARE_PAGES_API_TOKEN }}
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy public --project-name=autodarts-diy-docs --branch=${{ github.ref_name }} --commit-hash=${{ github.sha }}
+
+      - run: echo "Deployed to ${{ steps.deploy.outputs.deployment-url }}" >> "$GITHUB_STEP_SUMMARY"

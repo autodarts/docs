@@ -122,12 +122,12 @@ You will need to print the following models:
 
 Screws, nuts, and washers:
 
-- 12x DIN 4762 M2x10 screws (mounting camera modules inside the arm or modular head)
-- 6x DIN 4762 M4x20 screws (mounting arm and feet to the ring)
-- 6x DIN 4762 M4x12 screws (mounting head to the modular arm)
+- 12x ISO 4762 M2x10 screws (mounting camera modules inside the arm or modular head)
+- 6x ISO 4762 M4x20 screws (mounting arm and feet to the ring)
+- 6x ISO 4762 M4x12 screws (mounting head to the modular arm)
 - 12x DIN 9021 M4 washers
 - 12x DIN 4032 M4 nuts
-- 12x DIN 4762 M3x8 screws (mounting the lids)
+- 12x ISO 4762 M3x8 screws (mounting the lids)
 - 3x DIN 7997 5x40 screws (mounting the feet to the wall)
 
 ## Lars' Autodarts Ring
